@@ -4,18 +4,18 @@ description: Longer range item transport structure. Collects batches of items an
 size: 4
 squareSprite: false
 itemCapacity: 200
-reload: 300
-range: 500
+reload: 450
+range: 1600
 consumes: {
   power: 225
 }
 category: distribution
 research: phase-weaver
 requirements: [
-  lead/8000
-  titanium/8000
-  thorium/3000
-  graphite/5000
-  silicon/5000
-  phase-fabric/1000
+  lead/210
+  titanium/210
+  thorium/150
+  graphite/80
+  silicon/150
+  phase-fabric/30
 ]
