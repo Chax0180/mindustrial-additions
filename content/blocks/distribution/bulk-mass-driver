@@ -1,1 +1,21 @@
-
+type: MassDriver
+name: Bulk Mass Driver
+description: Longer range item transport structure. Collects batches of items and shoots them to other bulk mass drivers.
+size: 4
+squareSprite: false
+itemCapacity: 200
+reload: 300
+range: 500
+consumes: {
+  power: 225
+}
+category: distribution
+research: phase-weaver
+requirements: [
+  lead/8000
+  titanium/8000
+  thorium/3000
+  graphite/5000
+  silicon/5000
+  phase-fabric/1000
+]
