@@ -7,7 +7,7 @@ itemCapacity: 200
 reload: 450
 range: 1600
 consumes: {
-  power: 225
+  power: 2.2
 }
 category: distribution
 research: phase-weaver
