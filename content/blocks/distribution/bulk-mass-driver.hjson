@@ -25,4 +25,5 @@ requirements: [
   silicon/150
   phase-fabric/30
 ]
-sound: laserblast
+ambientSound: laserblast
+ambientSoundVolume: 0.12
