@@ -3,7 +3,9 @@ type:battery
   description: Stores power in times of surplus energy. Outputs power in times of deficit. Higher capacity than a large battery.
 size: 3
 category:power
-powerCapacity: 5
+consumes: {
+  powerBuffered: 250000
+}
 requirements: [
 lead/80
 titanium/80
