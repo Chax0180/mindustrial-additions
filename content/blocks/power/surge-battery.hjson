@@ -1,6 +1,21 @@
 type:battery
   name:Surge Battery
   description: Stores power in times of surplus energy. Outputs power in times of deficit. Higher capacity than a large battery.
+size: 3
+category:power
   baseShake: 6.0
+powerCapacity: 250000
   explosionEffect: chainLightning
 canExplode: true
+requirements: [
+lead/80
+titanium/80
+silicon/80
+surge-alloy/30
+thorium/25
+]
+research: [
+surge-smelter
+surge-alloy
+battery-large
+]
