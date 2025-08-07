@@ -62,7 +62,6 @@ drawer: {
     {
       type: DrawLiquidRegion
       drawLiquid: slag
-      liquid: slag
       suffix: -liquid
       alpha: 1
     }
