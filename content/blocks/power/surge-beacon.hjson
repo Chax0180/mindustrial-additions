@@ -1,4 +1,4 @@
-type: PowerNode
+xtype: PowerNode
 name: Surge Beacon
 description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons.
 size: 4
@@ -40,9 +40,10 @@ drawer: {
       suffix: -bottom
     }
     {
-    type:DrawCrucibleFlame
-    flameColor: f7e97e
-    midColor: f7e97e
+    type:explosionEffect
+    waveColor: f7e97e
+    smokeColor: f7e97e
+    sparkColor: f7e97e
     flameRad: 4
     particles: 75
     }
