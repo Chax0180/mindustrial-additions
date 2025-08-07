@@ -60,19 +60,19 @@ drawer: {
     }
     {
     type:DrawArcSmelt
-    flameColor: f7e97e
+    flameColor: e3ae6f
     midColor: f7e97e
     }
     {
     type:DrawCrucibleFlame
-    flameColor: f7e97e
+    flameColor: d57c65
     midColor: f7e97e
     }
     {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
-      rotateSpeed: 12
+      rotateSpeed: 6
     }
     {
       type: DrawDefault
