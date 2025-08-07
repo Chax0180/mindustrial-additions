@@ -61,8 +61,8 @@ drawer: {
     }
     {
       type: DrawLiquidRegion
-      liquid: slag
-      suffix: -liquid
+      region: slag
+      liquid: surge-forge-liquid
       alpha: 1
     }
     {
