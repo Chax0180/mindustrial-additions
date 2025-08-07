@@ -60,10 +60,10 @@ drawer: {
     }
     {
     type:DrawCultivator
-    plantColor: e3ae6f
+    plantColor: f7e97e
     plantColorLight: f7e97e
     bottomColor: 4a4b53
-    bubbles: 50
+    bubbles: 100
     }
     {
       type: DrawRegion
