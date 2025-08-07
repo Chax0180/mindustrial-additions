@@ -15,5 +15,19 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
   phase-fabric/0.2
   silicon/.2
   ]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 84f491
+    }
+  ]
+} 
 healpercent: 30
 usetime: 120
