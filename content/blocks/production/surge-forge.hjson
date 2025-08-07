@@ -63,6 +63,7 @@ drawer: {
     plantColor: f7e97eff
     plantColorLight: e3ae6fff
     bottomColor: 4a4b53ff
+    bubbles: 50
     }
     {
       type: DrawRegion
