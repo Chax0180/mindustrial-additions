@@ -1,6 +1,6 @@
 type: PowerNode
 name: Surge Beacon
-description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons.
+description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons. Produces a small amout of extra power if cooled with water.
 size: 4
 squareSprite: false
 laserRange: 131.25
@@ -8,9 +8,7 @@ category: power
 consumes: {
 power: 0.1
 }
-produces: {
-power:0.1
-}
+powerProduction: 0.1
 research: [
 phase-loom
 surge-forge
