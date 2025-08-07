@@ -59,11 +59,6 @@ drawer: {
       suffix: -middle
     }
     {
-    type:DrawRegion
-    suffix:-top-glow
-    alpha: 1.0
-    }
-    {
       type: DrawArcSmelt
     }
     {
