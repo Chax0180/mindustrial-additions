@@ -60,8 +60,8 @@ drawer: {
     }
     {
     type:DrawCultivator
-    plantColor: e3ae6fff
-    plantColorLight: f7e97eff
+    plantColor: f7e97eff
+    plantColorLight: e3ae6fff
     bottomColor: 4a4b53ff
     }
     {
