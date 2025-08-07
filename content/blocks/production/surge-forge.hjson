@@ -62,10 +62,10 @@ drawer: {
     {
    type: DrawLiquidTile
       drawLiquid: slag
-      padLeft: 18
-      padTop: 18
-      padBottom: 18
-      padRight: 18
+      padLeft: 3
+      padTop: 3
+      padBottom: 3
+      padRight: 3
     }
     {
       type: DrawCrucibleFlame
