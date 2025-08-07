@@ -19,6 +19,7 @@ advanced-launch-pad
 requirements: [
   lead/210
   titanium/210
+  plastanium/75
   thorium/150
   graphite/80
   silicon/150
