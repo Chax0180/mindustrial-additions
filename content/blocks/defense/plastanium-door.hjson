@@ -1,0 +1,10 @@
+type:door
+  name: Plastanium Door
+insulated: true
+  health: 2800
+  requirements: [
+  plastanium/20
+  metaglass/8
+  silicon/20
+  thorium/12
+  ]
