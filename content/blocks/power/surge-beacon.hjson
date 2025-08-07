@@ -40,14 +40,6 @@ drawer: {
       suffix: -bottom
     }
     {
-    type:explosionEffect
-    waveColor: f7e97e
-    smokeColor: f7e97e
-    sparkColor: f7e97e
-    flameRad: 4
-    particles: 75
-    }
-    {
       type: DrawDefault
     }
   ]
