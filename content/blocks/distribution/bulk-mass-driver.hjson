@@ -8,7 +8,9 @@ reload: 450
 range: 1600
 consumes: {
   power: 3.5
-  liquids: oil 0.1
+  liquids: [
+oil: 0.1
+]
 }
 category: distribution
 research: [
