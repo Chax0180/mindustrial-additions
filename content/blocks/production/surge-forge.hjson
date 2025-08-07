@@ -2,7 +2,6 @@ type: GenericCrafter
 name: Surge Forge
 description: Melts down titanium, lead, copper, and silicon, forming surge alloy at a faster rate. Accepts slag as an booster, and requires water as a coolant.
 size: 4
-squareSprite: true
 itemcapacity: 20
 liquidCapacity: 30
 craftTime: 90
@@ -20,7 +19,6 @@ liquid: water/0.2
 outputItems: [
 surge-alloy/5
 ]
-hasItems: true
 category: production
 research: [
   surge-smelter
