@@ -1,7 +1,7 @@
 type:battery
   name:Grid Resuscitator
-  description: Stores power in times of surplus energy. Outputs power in times of deficit. Higher capacity than a large battery.
-size: 3
+  description: Stores power in times of surplus energy. Outputs power in times of deficit. Quadruple the capacity of a surge battery. Produces a massive explosion when destroyed.
+size: 5
 category:power
 consumes: {
   powerBuffered: 1000000
@@ -21,3 +21,5 @@ surge-alloy
 phase-fabric
 surge-battery
 ]
+fullLightColor: 84f491
+emptyLightColor: ffd6b8
