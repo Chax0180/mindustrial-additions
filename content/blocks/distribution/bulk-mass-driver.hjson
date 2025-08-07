@@ -4,7 +4,7 @@ description: Longer range item transport structure. Collects batches of items an
 size: 4
 squareSprite: false
 itemCapacity: 200
-reload: 450
+reload: 250
 range: 1050
 consumes: {
   power: 3.5
@@ -26,4 +26,4 @@ requirements: [
   phase-fabric/30
 ]
 ambientSound: extractLoop
-ambientSoundVolume: 0.15
+ambientSoundVolume: 0.35
