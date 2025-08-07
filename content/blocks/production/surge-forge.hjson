@@ -1,4 +1,4 @@
-aulttype: GenericCrafter
+type: GenericCrafter
 name: Surge Forge
 description: Melts down titanium, lead, copper, and silicon, forming surge alloy at a faster rate. Accepts slag as an booster, and requires water as a coolant.
 size: 4
@@ -55,4 +55,4 @@ drawer: {
   ]
 }
 ambientSound: smelter
-abientSoundVolume: 0.35
+ambientSoundVolume: 0.35
