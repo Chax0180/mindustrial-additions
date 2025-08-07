@@ -1,8 +1,9 @@
 type:door
   name: Plastanium Door
+description: A wall that can be opened and closed. Absorbs lasers and electric arcs, and has more health than a standard door.
 insulated: true
 absorbLasers: true
-  health: 2800
+  health: 2600
   requirements: [
   plastanium/20
   metaglass/8
