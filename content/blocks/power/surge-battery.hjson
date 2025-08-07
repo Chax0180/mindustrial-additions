@@ -5,7 +5,7 @@ size: 3
 category:power
   baseShake: 6.0
 powerCapacity: 250000
-  explosionEffect: chainLightning
+  explosionEffect: explosion
 canExplode: true
 requirements: [
 lead/80
