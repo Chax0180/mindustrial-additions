@@ -1,4 +1,4 @@
-type:RegenProjector
+type:MendProjector
   Name: Mend Dome
 description: Repairs blocks in its vicinity. Requires phase fabric and silicon to operate.
   health: 485
@@ -15,3 +15,5 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
   phase-fabric/0.2
   silicon/.2
   ]
+healpercent: 30
+usetime: 120
