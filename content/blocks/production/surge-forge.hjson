@@ -59,11 +59,6 @@ drawer: {
       suffix: -middle
     }
     {
-    type:DrawArcSmelt
-    flameColor: e3ae6f
-    midColor: f7e97e
-    }
-    {
     type:DrawCrucibleFlame
     flameColor: d57c65
     midColor: f7e97e
