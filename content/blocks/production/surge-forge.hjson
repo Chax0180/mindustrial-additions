@@ -60,9 +60,9 @@ drawer: {
     }
     {
     type:DrawCultivator
-    plantColor: f7e97eff
-    plantColorLight: e3ae6fff
-    bottomColor: 4a4b53ff
+    plantColor: e3ae6f
+    plantColorLight: f7e97e
+    bottomColor: 4a4b53
     bubbles: 50
     }
     {
