@@ -60,10 +60,12 @@ drawer: {
       suffix: -middle
     }
     {
-      type: DrawLiquidRegion
+   type: DrawLiquidTile
       drawLiquid: slag
-      suffix: -liquid
-      alpha: 1
+      padLeft: 18
+      padTop: 18
+      padBottom: 18
+      padRight: 18
     }
     {
       type: DrawCrucibleFlame
