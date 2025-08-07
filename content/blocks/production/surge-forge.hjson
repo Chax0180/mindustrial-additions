@@ -27,11 +27,11 @@ consumes: {
     titanium/6
     copper/6
     lead/6
-    silicon/4
+    silicon/6
   ]
   liquid: water/0.2
   }
-outputItem: surge-alloy/5
+outputItem: surge-alloy/6
 
 craftTime: 120
 craftEffect: none
@@ -59,17 +59,17 @@ drawer: {
       suffix: -middle
     }
     {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 6
+    }
+    {
     type:DrawCrucibleFlame
     flameColor: f7e97e
     midColor: f7e97e
     flameRad: 3
     particles: 75
-    }
-    {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 6
     }
     {
       type: DrawDefault
