@@ -54,7 +54,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      padding: 300
+      padding: 50
     }
     {
       type: DrawCrucibleFlame
