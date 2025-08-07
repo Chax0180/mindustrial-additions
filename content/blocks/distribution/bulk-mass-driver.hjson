@@ -25,5 +25,5 @@ requirements: [
   silicon/150
   phase-fabric/30
 ]
-ambientSound: machine
-ambientSoundVolume: 0.5
+ambientSound: extractLoop
+ambientSoundVolume: 0.15
