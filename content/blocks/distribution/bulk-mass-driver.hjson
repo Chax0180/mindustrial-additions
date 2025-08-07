@@ -8,7 +8,7 @@ reload: 450
 range: 1050
 consumes: {
   power: 3.5
-  liquid: water/0.1
+  liquid: water/0.2
 }
 category: distribution
 research: [
