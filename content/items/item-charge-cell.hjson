@@ -1,4 +1,4 @@
-name: Ion Cell
+name: Charge Cell
 description: "A cylindrical canister filled with electricity. Used in large electrical structures, and for sending energy efficiently between sectors."
 hardness: 1
 cost: 0.5
