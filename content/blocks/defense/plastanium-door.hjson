@@ -1,6 +1,7 @@
 type:door
   name: Plastanium Door
 insulated: true
+absorbLasers: true
   health: 2800
   requirements: [
   plastanium/20
