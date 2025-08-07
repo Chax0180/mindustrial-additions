@@ -60,7 +60,7 @@ drawer: {
     }
     {
     type:DrawCrucibleFlame
-    flameColor: d57c65
+    flameColor: f7e97e
     midColor: f7e97e
     }
     {
