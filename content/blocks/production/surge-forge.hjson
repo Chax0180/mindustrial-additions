@@ -59,17 +59,20 @@ drawer: {
       suffix: -middle
     }
     {
-    type:DrawCultivator
-    plantColor: f7e97e
-    plantColorLight: f7e97e
-    bottomColor: 4a4b53
-    bubbles: 100
+    type:DrawArcSmelt
+    flameColor: f7e97e
+    midColor: f7e97e
+    }
+    {
+    type:DrawCrucibleFlame
+    flameColor: f7e97e
+    midColor: f7e97e
     }
     {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
-      rotateSpeed: 4
+      rotateSpeed: 12
     }
     {
       type: DrawDefault
