@@ -17,6 +17,7 @@ research: [
 surge-smelter
 surge-alloy
 battery-large
+charged-cell/25
 ]
 fullLightColor: 84f491
 emptyLightColor: ffd6b8
