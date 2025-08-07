@@ -4,7 +4,7 @@ description: Transmits power over vast distances, but has fewer available connec
 size: 4
 squareSprite: false
 itemCapacity: 200
-range: 1050
+laserRange: 1050
 consumes: {
   liquid: water/0.4
 }
@@ -24,10 +24,11 @@ requirements: [
   phase-fabric/50
   surge-alloy/75
 ]
-ambientSound: extractLoop
-ambientSoundVolume: 0.35
+ambientSound: spellLoop
+ambientSoundVolume: 0.6
 
   autolink: false
   sameBlockConnection: true
   laserScale: .75
   laserColor2: f7e97e
+  maxNodes: 
