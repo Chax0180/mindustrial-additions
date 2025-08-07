@@ -20,7 +20,7 @@ requirements: [
   phase-fabric/50
   surge-alloy/75
 ]
-produces: power/1
+powerProduction: 0.2
 ambientSound: spellLoop
 ambientSoundVolume: 0.6
 
