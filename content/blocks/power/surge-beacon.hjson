@@ -39,5 +39,14 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+  type: DrawPulseShape
+  square: true
+  color: f7e97e
+  radius: 6
+  stroke: 1.5
+  pulses: 2
+  pulseTime: 30
+}
   ]
 }
