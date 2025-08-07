@@ -52,6 +52,5 @@ drawer: {
     {
       type: DrawDefault
     }
-}
 ]
 }
