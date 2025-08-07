@@ -52,10 +52,6 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawRegion
-      suffix: -aperture
-    }
-    {
       type: DrawCrucibleFlame
     }
     {
