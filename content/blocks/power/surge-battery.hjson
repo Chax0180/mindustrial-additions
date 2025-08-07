@@ -12,12 +12,12 @@ titanium/80
 silicon/80
 surge-alloy/30
 thorium/25
+charged-cell/10
 ]
 research: [
 surge-smelter
 surge-alloy
 battery-large
-charged-cell/25
 ]
 fullLightColor: 84f491
 emptyLightColor: ffd6b8
