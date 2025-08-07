@@ -45,7 +45,7 @@ drawer: {
   drawers: [
     {
       type: DrawLiquidTile
-      drawLiquid: slag
+      drawLiquid: water
       padding: 3
     }
     {
