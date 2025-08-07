@@ -7,10 +7,10 @@ itemCapacity: 200
 reload: 450
 range: 1600
 consumes: {
-  power: 2.2
+  power: 3.5
 }
 category: distribution
-research: phase-weaver
+research: phase-weaver, mass-driver, surge-smelter, advanced-launch-pad
 requirements: [
   lead/210
   titanium/210
