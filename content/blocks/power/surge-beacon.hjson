@@ -1,13 +1,9 @@
 type: PowerNode
 name: Surge Beacon
-description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons. Requires water to prevent overheating.
+description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons.
 size: 4
 squareSprite: false
-itemCapacity: 200
-laserRange: 1050
-consumes: {
-  liquid: water/0.4
-}
+laserRange: 131.25
 category: power
 research: [
 phase-loom
@@ -29,6 +25,6 @@ ambientSoundVolume: 0.6
 
   autolink: false
   sameBlockConnection: true
-  laserScale: .75
+  laserScale: 2
   laserColor2: f7e97e
-  maxConnections: 6
+  maxNodes: 6
