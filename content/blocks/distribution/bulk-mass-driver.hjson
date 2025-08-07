@@ -1,14 +1,14 @@
 type: MassDriver
 name: Bulk Mass Driver
-description: Longer range item transport structure. Collects batches of items and shoots them to other bulk mass drivers. Consumes oil as fuel.
+description: Longer range item transport structure. Collects batches of items and shoots them to other bulk mass drivers. Requires water as coolant.
 size: 4
 squareSprite: false
 itemCapacity: 200
 reload: 450
-range: 1600
+range: 900
 consumes: {
   power: 3.5
-  liquid: oil/0.1
+  liquid: water/0.1
 }
 category: distribution
 research: [
