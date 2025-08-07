@@ -1,9 +1,9 @@
-type:MendProjector
-  Name: Mend Dome
+type: MendProjector
+  name: Mend Dome
 description: Repairs blocks in its vicinity. Requires phase fabric and silicon to operate.
   health: 485
   size: 3
-  requirement: [
+  requirements: [
   lead/200
   titanium/160
   silicon/130
