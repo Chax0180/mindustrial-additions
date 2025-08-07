@@ -1,0 +1,38 @@
+type: GenericCrafter
+
+name: "Surge Forge (Test)"
+
+health: 380
+size: 3
+
+hasItems: true
+hasPower: true
+itemCapacity: 20
+
+requirements: [
+  titanium/100
+  lead/120
+  copper/40
+  silicon/200
+  phase-fabric/60
+  surge-alloy/50
+  plastanium/50
+]
+
+consumes: {
+  power: 4.2
+  items: [
+    titanium/6
+    copper/6
+    lead/6
+    silicon/4
+  ]
+  liquid: water/0.2
+  }
+outputItem: surge-alloy/5
+
+craftTime: 39.6
+craftEffect: melting
+
+category: crafting
+research: surge-crucible
