@@ -1,0 +1,17 @@
+type:RegenProjector
+  Name: Mend Dome
+description: Repairs blocks in its vicinity. Requires phase fabric and silicon to operate.
+  health: 485
+  size: 3
+  requirement: [
+  lead/200
+  titanium/160
+  silicon/130
+  copper/240
+  surge-alloy/120
+  ]
+  range: 3.125
+  consumes: [
+  phase-fabric/0.2
+  silicon/.2
+  ]
