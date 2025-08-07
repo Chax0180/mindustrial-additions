@@ -63,6 +63,11 @@ drawer: {
     flameColor: f7e97e
     midColor: f7e97e
     }
+   {
+    type:DrawArcSmelt
+    flameColor: d57c65
+    midColor: d57c65
+    }
     {
       type: DrawRegion
       suffix: -spinner
