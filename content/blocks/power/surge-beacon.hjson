@@ -1,4 +1,4 @@
-xtype: PowerNode
+type: PowerNode
 name: Surge Beacon
 description: Transmits power over vast distances, but has fewer available connections. Only capable of connecting to adjacent structures or other surge beacons.
 size: 4
