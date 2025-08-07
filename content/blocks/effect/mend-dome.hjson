@@ -10,10 +10,14 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
   copper/240
   surge-alloy/120
   ]
+reload: 300
   range: 3.125
   consumes: [
-  phase-fabric/0.2
-  silicon/.2
+  power: 3
+  items{
+  phase-fabric/1
+  silicon/1
+  }
   ]
 category: effect
 drawer: {
