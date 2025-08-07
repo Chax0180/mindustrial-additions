@@ -52,8 +52,9 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: slag
+      region: surge-forge-aperture
       padding: 50
     }
     {
