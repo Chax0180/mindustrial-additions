@@ -16,7 +16,7 @@ consumes: {
     silicon/4
   ]
 }
-outputItems: surge-alloy/5
+outputItem: surge-alloy/5
 hasItems: true
 category: crafting
 research: [
