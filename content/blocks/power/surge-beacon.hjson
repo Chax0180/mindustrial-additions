@@ -31,4 +31,4 @@ ambientSoundVolume: 0.6
   sameBlockConnection: true
   laserScale: .75
   laserColor2: f7e97e
-  maxNodes: 6
+  maxConnections: 6
