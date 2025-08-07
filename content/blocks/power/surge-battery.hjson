@@ -4,9 +4,7 @@ type:battery
 size: 3
 category:power
   baseShake: 6.0
-powerCapacity: 250000
-  explosionEffect: explosion
-canExplode: true
+powerCapacity: 5
 requirements: [
 lead/80
 titanium/80
