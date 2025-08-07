@@ -6,6 +6,7 @@ squareSprite: true
 itemcapacity: 20
 liquidCapacity: 30
 craftTime: 90
+craftEffect: none
 consumes: {
   power: 4.2
   items: [
@@ -15,7 +16,7 @@ consumes: {
     silicon/4
   ]
 }
-outputItem: surge-alloy/5
+outputItems: surge-alloy/5
 hasItems: true
 category: crafting
 research: [
@@ -31,3 +32,32 @@ requirements: [
   surge-alloy/50
   plastanium/50
   ]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix:
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 0.65
+      padding: 2.5
+    }
+   {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+}
