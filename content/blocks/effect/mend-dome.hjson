@@ -11,7 +11,7 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
   surge-alloy/120
   ]
 reload: 300
-  range: 25
+  range: 200
   consumes: {
   power: 10
   items: [
