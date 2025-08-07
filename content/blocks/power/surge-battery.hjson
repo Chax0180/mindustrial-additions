@@ -18,3 +18,5 @@ surge-smelter
 surge-alloy
 battery-large
 ]
+fullLightColor: 84f491
+emptyLightColor: ffd6b8
