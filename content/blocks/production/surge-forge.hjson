@@ -60,9 +60,9 @@ drawer: {
     }
     {
     DrawCultivator
-    plantColor: e3ae6f
-    plantColorLight: f7e97e
-    bottomColor: 4a4b53
+    plantColor: e3ae6fff
+    plantColorLight: f7e97eff
+    bottomColor: 4a4b53ff
     }
     {
       type: DrawRegion
