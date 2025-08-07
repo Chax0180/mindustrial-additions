@@ -19,6 +19,7 @@ requirements: [
   silicon/160
   phase-fabric/50
   surge-alloy/75
+charged-cell/40
 ]
 ambientSound: spellLoop
 ambientSoundVolume: 0.6
@@ -28,25 +29,3 @@ ambientSoundVolume: 0.6
   laserScale: 1.3
   laserColor2: f7e97e
   maxNodes: 6
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-    {
-  type: DrawPulseShape
-  square: true
-  color: f7e97e
-  radius: 6
-  stroke: 1.5
-  pulses: 2
-  pulseTime: 30
-}
-  ]
-}
