@@ -62,6 +62,13 @@ drawer: {
       type: DrawArcSmelt
     }
     {
+      type: DrawCrucibleFlame
+    }
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      spinSpeed: 4
+    {
       type: DrawDefault
     }
   ]
