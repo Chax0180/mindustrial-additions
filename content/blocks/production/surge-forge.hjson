@@ -32,10 +32,14 @@ consumes: {
 outputItem: surge-alloy/5
 
 craftTime: 90
-craftEffect: melting
+craftEffect: none
 
 category: crafting
-research: surge-crucible
+research:[
+  surge-smelter
+  phase-weaver
+  silicon-crucible
+]
 drawer: {
   type: DrawMulti
   drawers: [
@@ -46,7 +50,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      alpha: 0.65
+      alpha: 0
       padding: 2.5
     }
     {
