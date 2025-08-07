@@ -33,5 +33,4 @@ drawer: {
     }
   ]
 } 
-healpercent: 30
-usetime: 120
+healPercent: 30
