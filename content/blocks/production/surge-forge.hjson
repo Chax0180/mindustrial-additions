@@ -59,12 +59,12 @@ drawer: {
       type:DrawRegion
       suffix: -middle
     }
-   {
-      type: DrawLiquidRegion
-      liquid: "slag"
-      region: surge-forge-liquid
-      alpha: 1.0
-    }
+{
+  type: DrawLiquidRegion
+  liquid: "slag"
+  region: "surge-forge-liquid"
+  alpha: 1.0
+}
     {
       type: DrawCrucibleFlame
     }
