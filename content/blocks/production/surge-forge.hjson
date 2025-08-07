@@ -30,6 +30,7 @@ consumes: {
   liquid: water/0.2
   }
 outputItem: surge-alloy/5
+outputFluid: slag/0.01
 
 craftTime: 90
 craftEffect: none
@@ -47,6 +48,11 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: water
       padding: 3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 300
     }
     {
       type: DrawCrucibleFlame
