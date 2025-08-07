@@ -1,4 +1,4 @@
-name: Charge Cell
+name: Charge Cell (Charged)
 description: "A cylindrical canister filled with electricity. Used in large electrical structures, and for sending energy efficiently between sectors."
 hardness: 1
 cost: 0.5
@@ -9,3 +9,8 @@ charging-machine
 battery-assembler
 ]
 hiddenOnPlanets: [erekir]
+
+explosiveness: .1
+flammability: .025
+charge: 8
+radioactivity: 0
