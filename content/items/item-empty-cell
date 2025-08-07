@@ -1,0 +1,16 @@
+name: Charge Cell (Empty)
+description: "A cylindrical canister that was once filled with electricity. Can be recharged in a supercharger."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: [
+charging-machine
+battery-assembler
+]
+hiddenOnPlanets: [erekir]
+
+explosiveness: .1
+flammability: .025
+charge: 8
+radioactivity: 0
