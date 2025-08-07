@@ -8,3 +8,9 @@ insulated: true
   silicon/20
   thorium/12
   ]
+category:defense
+size:2
+research: [
+plastanium-wall-large
+thorium-wall-large
+]
