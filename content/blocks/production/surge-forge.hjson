@@ -55,7 +55,7 @@ drawer: {
       type: DrawLiquidRegion
       drawLiquid: slag
       region: surge-forge-aperture
-      padding: 50
+      padding: 0
     }
     {
       type: DrawCrucibleFlame
