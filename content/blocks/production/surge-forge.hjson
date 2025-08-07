@@ -49,7 +49,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: slag
+      drawLiquid: water
       alpha: 0
       padding: 2.5
     }
