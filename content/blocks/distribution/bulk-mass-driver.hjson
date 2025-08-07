@@ -1,6 +1,6 @@
 type: MassDriver
 name: Bulk Mass Driver
-description: Longer range item transport structure. Collects batches of items and shoots them to other bulk mass drivers.
+description: Longer range item transport structure. Collects batches of items and shoots them to other bulk mass drivers. Consumes oil as fuel.
 size: 4
 squareSprite: false
 itemCapacity: 200
@@ -8,9 +8,14 @@ reload: 450
 range: 1600
 consumes: {
   power: 3.5
+  oil: 0.1
 }
 category: distribution
-research: phase-weaver, mass-driver, surge-smelter, advanced-launch-pad
+research: [
+phase-weaver
+mass-driver
+advanced-launch-pad
+]
 requirements: [
   lead/210
   titanium/210
