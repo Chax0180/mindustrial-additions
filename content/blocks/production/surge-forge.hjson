@@ -2,7 +2,7 @@ type: GenericCrafter
 
 name: Surge Forge
 
-description: Melts down titanium, lead, copper, and silicon, forming surge alloy at a faster rate. Requires water as a coolant. Produces waste slag.
+description: Grinds down titanium, lead, copper, and silicon before melting them together, forming surge alloy at a faster rate. Requires water as a coolant.
 
 health: 900
 size: 4
