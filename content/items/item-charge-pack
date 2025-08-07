@@ -1,0 +1,11 @@
+name: Ion Cell
+description: "A cylindrical canister filled with electricity. Used in large electrical structures, and for sending energy efficiently between sectors."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: [
+charging-machine
+battery-assembler
+]
+hiddenOnPlanets: [erekir]
