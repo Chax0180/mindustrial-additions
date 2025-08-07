@@ -62,7 +62,7 @@ drawer: {
    {
       type: DrawLiquidRegion
       liquid: slag
-      suffix: -liquid
+      region: surge-forge-liquid
     }
     {
       type: DrawCrucibleFlame
