@@ -28,3 +28,23 @@ ambientSoundVolume: 0.6
   laserScale: 1.3
   laserColor2: f7e97e
   maxNodes: 6
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+    type:DrawCrucibleFlame
+    flameColor: f7e97e
+    midColor: f7e97e
+    flameRad: 4
+    particles: 75
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
