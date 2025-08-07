@@ -62,11 +62,8 @@ drawer: {
     type:DrawCrucibleFlame
     flameColor: f7e97e
     midColor: f7e97e
-    }
-   {
-    type:DrawArcSmelt
-    flameColor: d57c65
-    midColor: d57c65
+    flameRad: 2
+    particles: 50
     }
     {
       type: DrawRegion
