@@ -38,8 +38,7 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
-      suffix:
-    }
+      suffix: -bottom
     {
       type: DrawLiquidTile
       drawLiquid: slag
@@ -50,14 +49,8 @@ drawer: {
       type: DrawCrucibleFlame
     }
     {
-      type: DrawRegion
-      suffix: -top
-    }
-    {
       type: DrawDefault
     }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
+}
+]
 }
