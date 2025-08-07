@@ -34,7 +34,7 @@ consumes: {
 outputItem: surge-alloy/5
 outputLiquid: slag/0.1
 
-craftTime: 90
+craftTime: 120
 craftEffect: none
 
 category: crafting
