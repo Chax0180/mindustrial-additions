@@ -55,10 +55,14 @@ drawer: {
       drawLiquid: water
       padding: 3
     }
+    {
+      type:DrawRegion
+      suffix: -middle
+    }
    {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: slag
-      padding: 3
+      suffix: -liquid
     }
     {
       type: DrawCrucibleFlame
