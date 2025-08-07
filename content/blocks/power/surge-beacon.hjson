@@ -30,4 +30,4 @@ ambientSoundVolume: 0.35
   autolink: false
   sameBlockConnection: true
   laserScale: .75
-  laserColor2: 
+  laserColor2: f7e97e
