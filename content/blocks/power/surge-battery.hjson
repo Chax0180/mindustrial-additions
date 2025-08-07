@@ -21,3 +21,4 @@ battery-large
 ]
 fullLightColor: 84f491
 emptyLightColor: ffd6b8
+baseExplosiveness: 2
