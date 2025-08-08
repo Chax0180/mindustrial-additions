@@ -45,25 +45,12 @@ drawer: {
   drawers: [
     {
       type: DrawLiquidTile
-      drawLiquid: water
+      drawLiquid: oil
       padding: 3
     }
     {
-      type:DrawRegion
-      suffix: -middle
-    }
-    {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 6
-    }
-    {
-    type:DrawCrucibleFlame
-    flameColor: f7e97e
-    midColor: f7e97e
-    flameRad: 3
-    particles: 75
+      type:DrawPistons
+      suffix: -piston
     }
     {
       type: DrawDefault
