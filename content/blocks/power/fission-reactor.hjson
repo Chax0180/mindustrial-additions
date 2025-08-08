@@ -11,8 +11,12 @@ explosionRadius: 50
   phase-fabric/10
   plastanium/25
   ]
-  liquid: water/96
+  liquids: cryofluid/96
   }
+requirements: [
+copper/1
+]
+liquidCapacity: 160
 powerProduction: 300
 explosionMinWarmup: 0.5
 explosionDamage: 8500
