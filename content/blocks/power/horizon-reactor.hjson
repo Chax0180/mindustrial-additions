@@ -32,12 +32,12 @@ drawer: {
     }
 {
 type: DrawLiquidTile
-drawliquid: cryofluid
+drawLiquid: cryofluid
 padding: 3
 }
 {
 type: DrawLiquidTile
-drawliquid: slag
+drawLiquid: slag
 padding: 10
 }
 {
