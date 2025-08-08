@@ -64,11 +64,16 @@ drawer: {
       y: -10
     }
     {
+    type: DrawArcSmelt
+      flameColor: ea8878
+      midColor: ea8878
+    }
+    {
       type: DrawPlasma
       suffix: -plasma-
       plasmas: 4
-      plasma1: f7e97e
-      plasma2: edf3a9
+      plasma1: ea8878
+      plasma2: ea8878
     }
     {
       type: DrawDefault
