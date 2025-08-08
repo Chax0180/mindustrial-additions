@@ -31,3 +31,5 @@ category:units
   consumes: {
 liquid: cryofluid/0.2
 }
+ambientSound: respawning
+ambientSoundVolume: 0.15
