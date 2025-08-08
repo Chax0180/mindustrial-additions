@@ -32,8 +32,7 @@ drawer: {
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particles: 50
-      particleSize: 3
+      particleSize: 2
       x: 11.3
       y: 11.3
     }
@@ -42,8 +41,7 @@ drawer: {
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particles: 50
-      particleSize: 3
+      particleSize: 2
       x: -11.3
       y: 11.3
     }
@@ -52,8 +50,7 @@ drawer: {
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particles: 50
-      particleSize: 3
+      particleSize: 2
       x: 11.3
       y: -11.3
     }
@@ -62,8 +59,7 @@ drawer: {
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particles: 50
-      particleSize: 3
+      particleSize: 2
       x: -11.3
       y: -11.3
     }
