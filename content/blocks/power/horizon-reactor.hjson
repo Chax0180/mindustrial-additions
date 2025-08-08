@@ -31,14 +31,14 @@ drawer: {
       suffix: -bottom
     }
 {
-type: DrawLiquidRegion
+type: DrawLiquidTile
 drawliquid: cryofluid
-suffix: -cryofluid
+padding: 3
 }
 {
-type: DrawLiquidRegion
+type: DrawLiquidTile
 drawliquid: slag
-suffix: -slag
+padding: 10
 }
 {
       type: DrawCrucibleFlame
