@@ -8,7 +8,7 @@ plans: [
     unit: zenith
     requirements: [
 silicon/195
-grapghite/50
+graphite/50
 titanium/90
 metaglass/50
     ]
