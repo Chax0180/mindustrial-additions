@@ -33,7 +33,9 @@ drawer: {
       midColor: 665c9f
       flameRad: 2
       particles: 50
-      particleSize: 5
+      particleSize: 3
+      x: 5
+      y: 5
     }
     {
       type: DrawDefault
