@@ -3,10 +3,6 @@ name: Hexative Air Constructor
 itemCapacity: 360
 seperateItemCapacity: true
 size: 5
-requirements: [
-tetrative-reconstructor
-multiplicative-reconstructor
-]
 plans: [
   {
     unit: zenith
