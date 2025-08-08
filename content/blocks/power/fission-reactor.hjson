@@ -1,4 +1,4 @@
-type: powerGenerator
+type: consumeGenerator
   name: Combinative Reactor
 size: 7
 category:power
@@ -13,7 +13,7 @@ category:power
 liquid: water/96
 }
 unstableSpeed: 0.01
-craftTime: 120
+itemDuration: 120
 requirements: [
 copper/1
 ]
