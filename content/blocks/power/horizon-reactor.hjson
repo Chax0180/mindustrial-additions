@@ -1,16 +1,15 @@
 type: consumeGenerator
-  name: Combinative Reactor
+  name: Horizon Reactor
 size: 7
 category:power
   health: 12550
   consumes: {
   items: [
-  thorium/30
   surge-alloy/10
   phase-fabric/10
   plastanium/25
   ]
-liquid: water/96
+liquid: cryofluid/3
 }
 unstableSpeed: 0.01
 itemDuration: 120
