@@ -15,4 +15,6 @@ metaglass/50
     time: 600
   }
 ]
-consumes: {}
+consumes: {
+cryofluid/0.2
+}
