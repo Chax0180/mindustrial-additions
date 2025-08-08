@@ -25,6 +25,17 @@ lead/30
     ]
     time: 1800
   }
+  {
+    unit: spiroct
+    requirements: [
+silicon/188
+graphite/50
+titanium/90
+metaglass/50
+coal/20
+    ]
+    time: 1800
+  }
 ]
 requirements: [
 copper/1
