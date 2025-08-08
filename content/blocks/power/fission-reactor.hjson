@@ -27,11 +27,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: cryofluid
-      padding: 3
-    }
-    {
       type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
