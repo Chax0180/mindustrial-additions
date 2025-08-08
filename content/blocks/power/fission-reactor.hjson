@@ -10,6 +10,8 @@ explosionRadius: 50
   phase-fabric/10
   plastanium/25
   ]
-  liquid: cryofluid/96
+  liquid: [
+  cryofluid/96
+  ]
   }
   powerProduction: 300
