@@ -11,10 +11,8 @@ explosionRadius: 50
   phase-fabric/10
   plastanium/25
   ]
-  liquids: [
-cryofluid/96
-]
 }
+unstableSpeed: 0.01
 requirements: [
 copper/1
 ]
