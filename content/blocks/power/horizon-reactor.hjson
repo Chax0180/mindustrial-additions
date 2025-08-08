@@ -104,3 +104,7 @@ bottomColor: 9cb664
     }
   ]
 }
+ambientSound: pulse
+ambientSound: flux
+ambientSound: laserbeam
+ambientSoundVolume: 0.35
