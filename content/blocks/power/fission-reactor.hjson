@@ -29,8 +29,8 @@ drawer: {
     }
 {
       type: DrawCrucibleFlame
-      flameColor: bf92f9
-      midColor: 665c9f
+      flameColor: cbd97f
+      midColor: 9cb664
       flameRad: 2
       particleSize: 3
       x: 10
@@ -38,8 +38,8 @@ drawer: {
     }
  {
       type: DrawCrucibleFlame
-      flameColor: bf92f9
-      midColor: 665c9f
+      flameColor: cbd97f
+      midColor: 9cb664
       flameRad: 2
       particleSize: 3
       x: -10
@@ -47,8 +47,8 @@ drawer: {
     }
  {
       type: DrawCrucibleFlame
-      flameColor: bf92f9
-      midColor: 665c9f
+      flameColor: cbd97f
+      midColor: 9cb664
       flameRad: 2
       particleSize: 3
       x: 10
@@ -56,8 +56,8 @@ drawer: {
     }
  {
       type: DrawCrucibleFlame
-      flameColor: bf92f9
-      midColor: 665c9f
+      flameColor: cbd97f
+      midColor: 9cb664
       flameRad: 2
       particleSize: 3
       x: -10
@@ -65,15 +65,15 @@ drawer: {
     }
     {
     type: DrawArcSmelt
-      flameColor: ea8878
-      midColor: ea8878
+      flameColor: cbd97f
+      midColor: 9cb664
     }
     {
       type: DrawPlasma
       suffix: -plasma-
       plasmas: 4
-      plasma1: ea8878
-      plasma2: ea8878
+      plasma1: 9cb664
+      plasma2: cbd97f
     }
     {
       type: DrawDefault
