@@ -2,7 +2,7 @@ type: consumeGenerator
   name: Horizon Reactor
 description: Produces massive amounts of energy by converting plastanium into extremely high-energy superheated plasma using surge alloy as a discharger, and phase fabric as a catalyst. The temperature difference between cryofluid and the plasma causes a reaction that produces large amounts of energy. Produces slag that must be drained, or the reactor will explode.
 destroyEffect: impactReactorExplosion
-consumeEffect: heal
+consumeEffect: coreLaunchConstruct
 size: 7
 category:power
   health: 12550
