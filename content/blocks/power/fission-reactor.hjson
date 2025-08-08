@@ -10,7 +10,7 @@ category:power
   phase-fabric/10
   plastanium/25
   ]
-liquid: cryo-fluid/96
+liquid: water/96
 }
 unstableSpeed: 0.01
 requirements: [
