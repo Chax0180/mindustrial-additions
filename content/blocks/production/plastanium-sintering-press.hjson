@@ -44,13 +44,24 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: oil
       padding: 3
     }
     {
+      type: DrawRegion
+      suffix: -middle
+    }
+    {
       type:DrawPistons
       suffix: -piston
+    }
+   {
+      type: DrawDefault
     }
   ]
 }
