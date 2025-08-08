@@ -23,7 +23,7 @@ titanium/100
 metaglass/50
 lead/30
     ]
-    time: 1800
+    time: 2400
   }
   {
     unit: spiroct
@@ -34,7 +34,7 @@ titanium/90
 metaglass/50
 coal/20
     ]
-    time: 1800
+    time: 2100
   }
 ]
 requirements: [
