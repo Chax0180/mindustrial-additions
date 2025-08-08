@@ -32,8 +32,8 @@ consumes: {
   }
 outputItem: plastanium/6
 
-craftTime: 120
-craftEffect: none
+craftTime: 60
+craftEffect: generateSpark
 
 category: crafting
 research:[
