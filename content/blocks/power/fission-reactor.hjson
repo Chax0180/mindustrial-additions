@@ -27,15 +27,45 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
+{
       type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
       particles: 50
       particleSize: 3
-      x: 11
-      y: 11
+      x: 11.3
+      y: 11.3
+    }
+ {
+      type: DrawCrucibleFlame
+      flameColor: bf92f9
+      midColor: 665c9f
+      flameRad: 2
+      particles: 50
+      particleSize: 3
+      x: -11.3
+      y: 11.3
+    }
+ {
+      type: DrawCrucibleFlame
+      flameColor: bf92f9
+      midColor: 665c9f
+      flameRad: 2
+      particles: 50
+      particleSize: 3
+      x: 11.3
+      y: -11.3
+    }
+ {
+      type: DrawCrucibleFlame
+      flameColor: bf92f9
+      midColor: 665c9f
+      flameRad: 2
+      particles: 50
+      particleSize: 3
+      x: -11.3
+      y: -11.3
     }
     {
       type: DrawDefault
