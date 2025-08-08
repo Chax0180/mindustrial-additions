@@ -1,6 +1,5 @@
 type: UnitFactory
 name: Hexative Air Constructor
-itemCapacity: 360
 seperateItemCapacity: true
 size: 5
 plans: [
