@@ -1,4 +1,4 @@
-type: unitFactory
+type: UnitFactory
 name: Hexative Air Constructor
 itemCapacity: 360
 seperateItemCapacity: true
