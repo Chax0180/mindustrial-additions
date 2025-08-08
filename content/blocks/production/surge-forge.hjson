@@ -29,7 +29,7 @@ consumes: {
     lead/6
     silicon/6
   ]
-  liquid: water/0.2
+  liquid: cryofluid/0.2
   }
 outputItem: surge-alloy/6
 
@@ -51,7 +51,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: water
+      drawLiquid: cryofluid
       padding: 3
     }
     {
