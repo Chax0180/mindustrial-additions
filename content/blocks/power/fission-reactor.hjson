@@ -1,0 +1,14 @@
+type: powerGenerator
+  name: Combinative Reactor
+size: 7
+  health: 12550
+explosionRadius: 50
+  consumes: {
+  items: [
+  thorium/30
+  surge-alloy/10
+  phase-fabric/10
+  plastanium/25
+  ]
+  liquid: cryofluid/96
+  powerProduction: 300
