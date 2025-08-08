@@ -1,0 +1,22 @@
+type: unitFactory
+name: Hexative Air Constructor
+itemCapacity: 360
+seperateItemCapacity: true
+size: 5
+requirements: [
+tetrative-reconstructor
+multiplicative-reconstructor
+]
+plans: [
+  {
+    unit: zenith
+    requirements: [
+silicon/195
+grapghite/50
+titanium/90
+metaglass/50
+    ]
+    time: 600
+  }
+]
+consumes: {}
