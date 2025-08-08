@@ -1,1 +1,75 @@
+type: GenericCrafter
 
+name: Plastanium Sintering Press
+
+description: Presses oil saturated with a titanium-silicon blend into plastanium. Requires cryofluid as a coolant.
+
+size: 3
+
+hasItems: true
+hasPower: true
+itemCapacity: 20
+
+requirements: [
+  titanium/150
+  lead/300
+  graphite/130
+  silicon/100
+  thorium/75
+  plastanium/50
+]
+
+consumes: {
+  power: 2
+  items: [
+    titanium/4
+    silicon/2
+  ]
+  liquids: [
+  cryofluid/0.2
+  oil/0.4
+  ]
+  }
+outputItem: plastanium/6
+
+craftTime: 120
+craftEffect: none
+
+category: crafting
+research:[
+  plastanium-compressor
+  silicon-crucible
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+    }
+    {
+      type:DrawRegion
+      suffix: -middle
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 6
+    }
+    {
+    type:DrawCrucibleFlame
+    flameColor: f7e97e
+    midColor: f7e97e
+    flameRad: 3
+    particles: 75
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: machine
+ambientSoundVolume: 0.25
+squareSprite: false
