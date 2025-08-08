@@ -1,1 +1,33 @@
-
+type: UnitFactory
+name: Hexative Naval Constructor
+seperateItemCapacity: true
+size: 5
+plans: [
+  {
+    unit: bryde
+    requirements: [
+silicon/200
+graphite/50
+titanium/90
+metaglass/85
+    ]
+    time: 1800
+  }
+  {
+    unit: cyerce
+    requirements: [
+silicon/195
+graphite/50
+titanium/110
+metaglass/50
+    ]
+    time: 1800
+  }
+]
+requirements: [
+copper/1
+]
+category:units
+  consumes: {
+liquid: cryofluid/0.2
+}
