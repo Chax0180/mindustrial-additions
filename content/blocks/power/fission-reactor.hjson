@@ -11,8 +11,10 @@ explosionRadius: 50
   phase-fabric/10
   plastanium/25
   ]
-  liquids: cryofluid/96
-  }
+  liquids: [
+cryofluid/96
+]
+}
 requirements: [
 copper/1
 ]
