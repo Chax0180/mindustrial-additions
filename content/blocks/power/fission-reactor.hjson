@@ -30,12 +30,11 @@ drawer: {
     }
     {
       type: DrawArcSmelt
+      flameColor: bf92f9
+      midColor: 665c9f
     }
     {
       type: DrawDefault
-    }
-    {
-      type: DrawHeatInput
     }
   ]
 }
