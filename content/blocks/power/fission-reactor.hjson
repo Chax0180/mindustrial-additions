@@ -10,13 +10,15 @@ category:power
   phase-fabric/10
   plastanium/25
   ]
+liquids: cryofluid/96
 }
 unstableSpeed: 0.01
 requirements: [
 copper/1
 ]
 liquidCapacity: 160
-powerProduction: 300
+itemCapacity: 50
+powerProduction: 1250
 drawer: {
   type: DrawMulti
   drawers: [
