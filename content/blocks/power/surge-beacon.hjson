@@ -10,6 +10,9 @@ phase-loom
 surge-forge
 bulk-mass-driver
 ]
+consumes: {
+  powerBuffered: 50000
+}
 requirements: [
   lead/110
   titanium/80
