@@ -3,7 +3,6 @@ type: powerGenerator
 size: 7
 category:power
   health: 12550
-explosionRadius: 50
   consumes: {
   items: [
   thorium/30
@@ -18,7 +17,6 @@ copper/1
 ]
 liquidCapacity: 160
 powerProduction: 300
-explosionDamage: 8500
 drawer: {
   type: DrawMulti
   drawers: [
