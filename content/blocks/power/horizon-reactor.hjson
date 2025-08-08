@@ -16,7 +16,15 @@ liquid: cryofluid/3
 unstableSpeed: 0.01
 itemDuration: 120
 requirements: [
-copper/1
+plastanium/3000
+surge-alloy/2000
+phase-fabric/1250
+copper/4000
+lead/4000
+silicon/3250
+thorium/3000
+item-charged-cell/500
+graphite/2000
 ]
 liquidCapacity: 160
 itemCapacity: 50
@@ -105,6 +113,4 @@ bottomColor: 9cb664
   ]
 }
 ambientSound: pulse
-ambientSound: flux
-ambientSound: laserbeam
-ambientSoundVolume: 0.35
+ambientSoundVolume: 1
