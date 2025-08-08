@@ -32,36 +32,36 @@ drawer: {
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particleSize: 2
-      x: 11.3
-      y: 11.3
+      particleSize: 3
+      x: 10.3
+      y: 10.3
     }
  {
       type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particleSize: 2
-      x: -11.3
-      y: 11.3
+      particleSize: 3
+      x: -10.3
+      y: 10.3
     }
  {
       type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particleSize: 2
-      x: 11.3
-      y: -11.3
+      particleSize: 3
+      x: 10.3
+      y: -10.3
     }
  {
       type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
       flameRad: 2
-      particleSize: 2
-      x: -11.3
-      y: -11.3
+      particleSize: 3
+      x: -10.3
+      y: -10.3
     }
     {
       type: DrawDefault
