@@ -18,7 +18,6 @@ copper/1
 ]
 liquidCapacity: 160
 powerProduction: 300
-explosionMinWarmup: 0.5
 explosionDamage: 8500
 drawer: {
   type: DrawMulti
@@ -33,7 +32,7 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawArcSmelt
+      type: DrawCrucibleFlame
       flameColor: bf92f9
       midColor: 665c9f
     }
