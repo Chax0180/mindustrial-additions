@@ -1,6 +1,7 @@
 type: powerGenerator
   name: Combinative Reactor
 size: 7
+category:power
   health: 12550
 explosionRadius: 50
   consumes: {
@@ -12,4 +13,29 @@ explosionRadius: 50
   ]
   liquid: water/96
   }
-  powerProduction: 300
+powerProduction: 300
+explosionMinWarmup: 0.5
+explosionDamage: 8500
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      padding: 3
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+    }
+  ]
+}
