@@ -12,7 +12,7 @@ titanium/675
 silicon/800
 surge-alloy/600
 phase-fabric/250
-item-charged-cell/100
+item-empty-cell/100
 ]
 research: [
 surge-forge
@@ -23,3 +23,4 @@ surge-battery
 ]
 fullLightColor: 84f491
 emptyLightColor: ffd6b8
+baseExplosiveness: 8
