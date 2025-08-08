@@ -34,8 +34,8 @@ supercharger
 impact-reactor
 thorium-reactor
 ]
-liquidCapacity: 160
-itemCapacity: 50
+liquidCapacity: 180
+itemCapacity: 90
 powerProduction: 1250
 outputLiquid: slag/0.2
 explodeOnFull: true
