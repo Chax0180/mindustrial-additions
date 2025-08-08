@@ -34,8 +34,8 @@ drawer: {
       flameRad: 2
       particles: 50
       particleSize: 3
-      x: 12
-      y: 12
+      x: 10
+      y: 10
     }
     {
       type: DrawDefault
