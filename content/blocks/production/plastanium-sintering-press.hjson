@@ -20,7 +20,7 @@ requirements: [
 ]
 
 consumes: {
-  power: 2
+  power: 4
   items: [
     titanium/4
     silicon/2
