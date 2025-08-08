@@ -14,11 +14,21 @@ metaglass/50
     ]
     time: 600
   }
+  {
+    unit: mega
+    requirements: [
+silicon/210
+graphite/50
+titanium/90
+metaglass/50
+    ]
+    time: 600
+  }
 ]
 requirements: [
 copper/1
 ]
 category:units
   consumes: {
-liquid: cryofluid/3
+liquid: cryofluid/0.2
 }
