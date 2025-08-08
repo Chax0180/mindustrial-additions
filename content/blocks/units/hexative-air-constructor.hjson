@@ -11,7 +11,7 @@ graphite/50
 titanium/90
 metaglass/50
     ]
-    time: 600
+    time: 1800
   }
   {
     unit: mega
@@ -21,7 +21,7 @@ graphite/50
 titanium/90
 metaglass/50
     ]
-    time: 600
+    time: 1800
   }
 ]
 requirements: [
