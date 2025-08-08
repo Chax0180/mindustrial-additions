@@ -10,7 +10,7 @@ battery-assembler
 ]
 hiddenOnPlanets: [erekir]
 
-explosiveness: .1
-flammability: .025
+explosiveness: 1
+flammability: .5
 charge: 8
 radioactivity: 0
