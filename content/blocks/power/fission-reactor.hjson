@@ -13,6 +13,7 @@ category:power
 liquid: water/96
 }
 unstableSpeed: 0.01
+craftTime: 120
 requirements: [
 copper/1
 ]
