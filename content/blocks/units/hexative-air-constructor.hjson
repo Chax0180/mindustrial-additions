@@ -16,5 +16,5 @@ metaglass/50
   }
 ]
 consumes: {
-cryofluid: 0.2
+liquid: cryofluid/0.2
 }
