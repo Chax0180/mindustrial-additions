@@ -36,13 +36,19 @@ drawLiquid: slag
 padding: 3
 }
 {
+type: DrawLiquidTile
+drawLiquid: cryofluid
+padding: 10
+}
+{
 type: DrawRegion
 suffix: -middle
 }
 {
-type: DrawLiquidTile
-drawLiquid: cryofluid
-padding: 10
+type:DrawCultivator
+plantColor: cbd97f
+plantColorLight: edf3a9
+bottomColor: 9cb664
 }
 {
       type: DrawCrucibleFlame
