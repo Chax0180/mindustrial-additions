@@ -11,7 +11,7 @@ graphite/50
 titanium/90
 metaglass/85
     ]
-    time: 1800
+    time: 2400
   }
   {
     unit: cyerce
@@ -21,7 +21,7 @@ graphite/50
 titanium/110
 metaglass/50
     ]
-    time: 1800
+    time: 3000
   }
 ]
 requirements: [
