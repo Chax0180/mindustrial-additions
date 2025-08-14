@@ -33,6 +33,14 @@ thorium/650
 metaglass/120
 silicon/170
 ]
+research: [
+ground-factory
+air-factory
+naval-factory
+additive-reconstructor
+multiplicative-reconstructor
+exponential-reconstructor
+]
 category:units
   consumes: {
 liquid: cryofluid/0.2
