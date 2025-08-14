@@ -20,14 +20,8 @@ requirements: [
 
 consumes: {
   power: 3
-  items: [
-sand/1
-  ]
   }
-outputLiquid: water/2
-
-craftTime: 120
-craftEffect: none
+result: water/2
 
 category: production
 research:[
