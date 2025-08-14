@@ -21,7 +21,7 @@ requirements: [
 consumes: {
   power: 3
   }
-outputLiquid: water/2
+outputLiquid: water/0.75
 
 category: production
 research:[
