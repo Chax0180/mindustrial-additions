@@ -22,7 +22,6 @@ requirements: [
   silicon/160
   phase-fabric/50
   surge-alloy/75
-item-empty-cell/40
 ]
 ambientSound: spellLoop
 ambientSoundVolume: 0.6
