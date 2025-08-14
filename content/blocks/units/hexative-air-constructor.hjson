@@ -40,6 +40,8 @@ naval-factory
 additive-reconstructor
 multiplicative-reconstructor
 exponential-reconstructor
+zenith
+mega
 ]
 category:units
   consumes: {
