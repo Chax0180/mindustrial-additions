@@ -1,1 +1,67 @@
+type: Drill
+
+name: Heavy Water Extractor
+
+description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+
+health: 900
+size: 3
+
+hasPower: true
+
+requirements: [
+  copper/150
+  lead/90
+  silicon/50
+  graphite/90
+  thorium/115
+  plastanium/50
+]
+
+consumes: {
+  power: 3
+  items: [
+sand/1
+  ]
+  }
+outputLiquid: water/2
+
+craftTime: 120
+craftEffect: none
+
+category: production
+research:[
+  water-extractor
+  oil-extractor
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.25
+squareSprite: false
 
