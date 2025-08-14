@@ -25,7 +25,12 @@ metaglass/50
   }
 ]
 requirements: [
-copper/1
+copper/1000
+lead/900
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
 ]
 category:units
   consumes: {
