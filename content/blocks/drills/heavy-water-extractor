@@ -55,7 +55,9 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
+ambientSound: drill
+attribute:
+rotatorRegion: -spinner
 ambientSoundVolume: 0.25
 squareSprite: false
 
