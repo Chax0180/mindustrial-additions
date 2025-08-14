@@ -38,7 +38,12 @@ coal/20
   }
 ]
 requirements: [
-copper/1
+copper/250
+lead/890
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
 ]
 category:units
   consumes: {
