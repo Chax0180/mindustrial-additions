@@ -122,3 +122,5 @@ bottomColor: 9cb664
 }
 ambientSound: pulse
 ambientSoundVolume: 1
+
+buildVisibility:sandboxOnly
