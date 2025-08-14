@@ -26,7 +26,12 @@ lead/35
   }
 ]
 requirements: [
-copper/1
+copper/260
+lead/760
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
 ]
 category:units
   consumes: {
