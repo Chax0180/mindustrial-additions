@@ -2,7 +2,7 @@ type: GenericCrafter
 
 name: Heavy Water Extractor
 
-description: Extracts groundwater at a faster rate. Used in locations with no surface water available.
+description: Extracts groundwater at a faster rate. Used in locations with no surface water available. Functions properly regardless of the ground below.
 
 health: 900
 size: 3
