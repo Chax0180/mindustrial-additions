@@ -1,4 +1,4 @@
-type: SolidPump
+type: GenericCrafter
 
 name: Heavy Water Extractor
 
@@ -21,7 +21,7 @@ requirements: [
 consumes: {
   power: 3
   }
-result: water/2
+outputLiquid: water/2
 
 category: production
 research:[
@@ -56,8 +56,6 @@ drawer: {
   ]
 }
 ambientSound: drill
-attribute:
-rotatorRegion: -spinner
 ambientSoundVolume: 0.25
 squareSprite: false
 
