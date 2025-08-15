@@ -2,7 +2,7 @@ type: GenericCrafter
 
 name: Surge Forge
 
-description: Grinds down titanium, lead, copper, and silicon before melting them together, forming surge alloy at a faster rate. Requires cryofluid as a coolant.
+description: Grinds down titanium, lead, copper, and silicon into a fine powder before melting them together, forming surge alloy at a faster rate. Requires cryofluid as a coolant.
 
 health: 900
 size: 4
