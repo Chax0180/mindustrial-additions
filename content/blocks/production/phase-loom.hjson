@@ -45,8 +45,8 @@ drawer: {
       suffix: -bottom
     }
     {
-      type:DrawMultiWeave
-      weave:-weave1
+      type:DrawWeave
+      suffix: -weave1
     }
     {
       type: DrawDefault
