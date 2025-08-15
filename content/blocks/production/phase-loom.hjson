@@ -4,7 +4,7 @@ name: Phase Loom
 
 description: Melts down a blend of thorium and metaglass to be blown into thin fibers, which are woven into phase fabric at a faster rate than a phase weaver.
 health: 900
-size: 4
+size: 3
 
 hasItems: true
 hasPower: true
@@ -45,16 +45,8 @@ drawer: {
       suffix: -bottom
     }
     {
-      type:DrawRegion
-      suffix: -weave1
-      spinSprite: true
-      rotateSpeed: 3
-    }
-    {
-      type:DrawRegion
-      suffix: -weave2
-      spinSprite: true
-      rotateSpeed: -3
+      type:DrawMultiWeave
+      weave: -weave1
     }
     {
       type: DrawDefault
