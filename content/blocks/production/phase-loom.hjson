@@ -45,8 +45,9 @@ drawer: {
       suffix: -bottom
     }
     {
-      type:DrawWeave
-      suffix: -weave1
+      type:DrawMultiWeave
+      weave: -weave
+      glow: -weave2
     }
     {
       type: DrawDefault
