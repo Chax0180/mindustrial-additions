@@ -61,6 +61,6 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.25
+ambientSound: techLoop
+ambientSoundVolume: 0.5
 squareSprite: false
