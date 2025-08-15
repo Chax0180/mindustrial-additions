@@ -21,8 +21,9 @@ requirements: [
 consumes: {
   power: 3
   }
-outputLiquid: water/0.75
+outputLiquid: water/0.8
 
+liquidCapacity: 80
 category: production
 research:[
   water-extractor
