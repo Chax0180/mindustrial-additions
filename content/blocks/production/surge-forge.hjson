@@ -66,8 +66,8 @@ drawer: {
     }
     {
     type:DrawCrucibleFlame
-    flameColor: f7e97e
-    midColor: f7e97e
+    flameColor: ffc999
+    midColor: ffc999
     flameRad: 3
     particles: 75
     }
