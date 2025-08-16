@@ -25,18 +25,18 @@ weapons: [
     shootSound: laserblast
     inaccuracy: 0
     shoot: {
-      firstShotDelay: 120
-      shotDelay: 12
+      firstShotDelay: 110
+      shotDelay: 600
       shots: 1
     }
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
-      colors: [85c278, 9be98b, ffffff]
+      colors: [62ae7f, 84f491, ffffff]
       width: 2
-      length: 108
+      length: 1000
       damage: 1300
-      healPercent: 2
+      healPercent: 75
       collidesTeam: true
       pierce: true
       pierceBuilding: false
@@ -44,7 +44,7 @@ weapons: [
       chargeEffect: lightningCharge
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
-      hitColor: 85c278
+      hitColor: 84f491
     }
   }
 ]
