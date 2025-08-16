@@ -33,7 +33,8 @@ consumes: {
 outputItem: plastanium/6
 
 craftTime: 60
-craftEffect: formsmoke
+craftEffect: coalSmeltsmoke
+updateEffect: plasticBurn
 
 category: crafting
 research:[
