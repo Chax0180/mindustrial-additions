@@ -27,7 +27,7 @@ thorium/6
   }
 outputItem: phase-fabric/3
 
-craftTime: 180
+craftTime: 150
 craftEffect: smeltsmoke
 
 category: crafting
