@@ -34,7 +34,7 @@ consumes: {
 outputItem: surge-alloy/6
 
 craftTime: 120
-craftEffect: smeltSmoke
+craftEffect: smeltsmoke
 
 category: crafting
 research:[
