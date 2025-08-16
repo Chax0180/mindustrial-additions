@@ -6,14 +6,14 @@ health: 54000
 commands: [move]
 armor: 1
 flying: false
-legExtension: -2.5
-legMoveSpace: 0.9
+legExtension: 0
+legMoveSpace: 5
 hovering: false
 isEnemy: false
 legCount: 6
-legLength: 8
+legLength: 60
 legSpeed: 0.23
-legForwardScl: 0.56
+legForwardScl: 5
 hitSize: 6
 weapons: [
 {
