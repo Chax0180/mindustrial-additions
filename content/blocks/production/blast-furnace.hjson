@@ -44,9 +44,11 @@ drawer: {
     }
     {
       type: DrawFade
+      suffix: -top
     }
     {
-      type: DrawSmelter
+      type: DrawFlame
+      flameColor: ffd6b8
     }
   ]
 }
