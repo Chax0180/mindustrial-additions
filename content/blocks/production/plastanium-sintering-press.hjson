@@ -33,7 +33,8 @@ consumes: {
 outputItem: plastanium/6
 
 craftTime: 60
-craftEffect: pulverize
+craftEffect: fuelburn
+updateEffect: plasticburn
 
 category: crafting
 research:[
