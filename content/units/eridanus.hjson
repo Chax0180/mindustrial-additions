@@ -6,7 +6,7 @@ health: 54000
 commands: [move]
 armor: 1
 flying: false
-legExtension: 0
+legExtension: -2.5
 legMoveSpace: 1
 hovering: false
 isEnemy: false
