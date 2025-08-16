@@ -24,6 +24,7 @@ consumes: {
     lead/4
     sand/8
     pyratite/1
+  ]
   }
 outputItem: metaglass/8
 
