@@ -22,14 +22,14 @@ weapons: [
     reload: 94
     mirror: false
     rotate: false
-    shootSound: laserBlast
+    shootSound: laserblast
     inaccuracy: 0
     shoot: {
       firstShotDelay: 120
       shotDelay: 12
       shots: 1
     }
-    chargeSound: laserCharge
+    chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
       colors: [85c278, 9be98b, ffffff]
