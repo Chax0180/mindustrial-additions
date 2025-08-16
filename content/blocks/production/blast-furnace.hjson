@@ -30,7 +30,7 @@ outputItem: metaglass/8
 
 craftTime: 120
 craftEffect: smeltsmoke
-boostScale: 0.17
+boostScale: 0.16
 
 category: crafting
 research:[
