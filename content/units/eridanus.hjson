@@ -49,3 +49,5 @@ weapons: [
     }
   }
 ]
+soundPitchMin: -0.1
+soundPitchMax: 0.1
