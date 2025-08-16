@@ -26,8 +26,10 @@ weapons: [
     inaccuracy: 0
     shoot: {
       firstShotDelay: 110
-      shotDelay: 600
+      reload: 600
       shots: 1
+      shake: 5
+      
     }
     shootStatus: unmoving
     chargeSound: lasercharge
@@ -46,6 +48,7 @@ weapons: [
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
       hitColor: 84f491
+
     }
   }
 ]
