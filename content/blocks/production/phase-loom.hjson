@@ -46,7 +46,6 @@ drawer: {
     }
     {
       type:DrawMultiWeave
-      weave: phase-loom-weave
     }
     {
       type: DrawDefault
