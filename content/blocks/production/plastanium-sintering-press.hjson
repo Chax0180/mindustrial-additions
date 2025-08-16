@@ -34,7 +34,7 @@ outputItem: plastanium/6
 
 craftTime: 60
 craftEffect: coalSmeltsmoke
-updateEffect: plasticBurn
+updateEffect: plasticburn
 
 category: crafting
 research:[
