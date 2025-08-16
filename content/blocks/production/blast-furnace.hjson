@@ -1,1 +1,51 @@
+type: AttributeCrafter
 
+name: Blast Furnace
+
+description: Melts lead and sand into metaglass, using pyratite as an additional heat source. More efficient in hot locations.
+
+size: 3
+
+hasItems: true
+hasPower: true
+itemCapacity: 30
+
+requirements: [
+  metaglass/160
+  titanium/80
+  lead/120
+  silicon/80
+  plastanium/35
+]
+
+consumes: {
+  power: 3
+  items: [
+    lead/4
+    sand/8
+    pyratite/1
+  }
+outputItem: metaglass/8
+
+craftTime: 120
+craftEffect: smeltsmoke
+
+category: crafting
+research:[
+  silicon-crucible
+  kiln
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFade
+    }
+    {
+      type: DrawSmelter
+    }
+  ]
+}
