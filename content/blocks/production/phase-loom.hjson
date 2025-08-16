@@ -21,13 +21,13 @@ requirements: [
 consumes: {
   power: 15
   items: [
-metaglass/2
-thorium/1
+metaglass/8
+thorium/6
   ]
   }
 outputItem: phase-fabric/3
 
-craftTime: 120
+craftTime: 180
 craftEffect: none
 
 category: crafting
