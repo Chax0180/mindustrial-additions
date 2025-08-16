@@ -33,7 +33,7 @@ consumes: {
 outputItem: plastanium/6
 
 craftTime: 60
-craftEffect: grenCloud
+craftEffect: greenCloud
 updateEffect: fuelburn
 
 category: crafting
