@@ -29,7 +29,10 @@ weapons: [
       shotDelay: 600
       shots: 1
     }
-    shootStatus: unmoving
+    shootStatus: [
+      unmoving
+      melting
+      ]
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
