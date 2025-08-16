@@ -2,7 +2,7 @@ type: GenericCrafter
 
 name: Phase Loom
 
-description: Melts down a blend of thorium and metaglass to be blown into thin fibers, which are woven into phase fabric at a faster rate than a phase weaver.
+description: Melts down a blend of thorium and metaglass to be pulled into thin fibers, which are woven into phase fabric at a faster rate than a phase weaver.
 health: 900
 size: 3
 
