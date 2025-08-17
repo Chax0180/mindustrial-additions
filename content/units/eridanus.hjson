@@ -75,7 +75,7 @@ abilities: [
       radius: 25
       angle: 120
       width: 25
-      regen: 1
+      regen: 5
       max: 8000
       whenShooting: true
   }
