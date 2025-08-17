@@ -11,12 +11,7 @@ consumes: {
   liquid: water/0.2
 }
 category: distribution
-research: [
-phase-weaver
-mass-driver
-advanced-launch-pad
-parent: advanced-launch-pad
-]
+research: advanced-launch-pad
 requirements: [
   lead/210
   titanium/210
