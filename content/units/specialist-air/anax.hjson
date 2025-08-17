@@ -24,8 +24,8 @@ abilities: [
   {
   type: ShieldArcAbility
       radius: 5
-      angle: 15
-      width: 25
+      angle: 90
+      width: 10
       regen: 1
       max: 600
       whenShooting: true
