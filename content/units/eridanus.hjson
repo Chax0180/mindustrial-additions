@@ -38,6 +38,7 @@ weapons: [
       colors: [62ae7f, 84f491, ffffff]
       width: 75
       length: 580
+      lifetime: 75
       damage: 1300
       healPercent: 75
       collidesTeam: true
