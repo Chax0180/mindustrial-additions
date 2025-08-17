@@ -28,6 +28,7 @@ category: production
 research:[
   water-extractor
   oil-extractor
+parent: oil-extractor
 ]
 drawer: {
   type: DrawMulti
