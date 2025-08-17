@@ -9,6 +9,8 @@ research: [
 phase-loom
 surge-forge
 bulk-mass-driver
+surge-tower
+parent: surge-tower
 ]
 consumes: {
   powerBuffered: 50000
