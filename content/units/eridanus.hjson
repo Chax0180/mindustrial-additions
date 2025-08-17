@@ -44,8 +44,8 @@ weapons: [
       pierce: true
       pierceBuilding: false
       pierceCap: 1
-      chargeEffect: lightningCharge
-      shootEffect: shootBig
+      chargeEffect: greenLaserCharge
+      shootEffect: greenBomb
       smokeEffect: shootBigSmoke
       hitColor: 84f491
 
