@@ -1,3 +1,6 @@
 type: PayloadConveyor
 name: Large Payload Conveyor
 size: 5
+moveTime: 90
+moveForce: 402
+payloadLimit: 5
