@@ -1,1 +1,8 @@
-
+abilities: [
+   {
+    type: EnergyFieldAbility
+    damage: 1.7
+    reload: 90
+    range: 240
+    y: -5
+  }
