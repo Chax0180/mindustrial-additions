@@ -9,10 +9,3 @@ speed: 3
 hitSize: 5
 flying: true
 faceTarget: false
-abilities: [
-  {
-    type: LiquidExplodeAbility
-    liquid: asthosus-02b-07-arcanoma
-    amount: 240
-  }
-]
