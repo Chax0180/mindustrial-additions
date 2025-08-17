@@ -9,33 +9,14 @@ speed: 3
 hitSize: 5
 flying: true
 faceTarget: false
-weapons: [
+abilities: [
   {
-    shootOnDeath: true
-    targetUnderBlocks: false
-    reload: 24
-    shootCone: 180
-    ejectEffect: none
-    shootSound: explosion
-    x: 0
-    y: 0
-    mirror: false
-
-    bullet: {
-      type: basicBulletType
-      collidesTiles: false
-      collides: false
-      hitSound: explosion
-
-      rangeOverride: 25
-      hitEffect: pulverize
-      speed: 0
-      splashDamageRadius: 44
-      instantDisappear: true
-      splashDamage: 80
-      killShooter: true
-      hittable: false
-      collidesAir: true
-    }
+    type: explodeAbility
+    splashDamage: 80
+    splashDamageRadius: 44
+    # optional:
+    deathEffect: pulverize
+    deathSound: explosion
+    collidesAir: true
   }
 ]
