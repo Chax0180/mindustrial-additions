@@ -71,8 +71,12 @@ abilities: [
   }
   {
   type: ShieldArcAbility
+      radius: 25
+      drawArc: false
+      region: "eridanus-shield"
+      regen: 0.15
+      max: 8000
       whenShooting: true
-      region:eridanus-shield
   }
   ]
     sameTypeHealMult: 1.75
