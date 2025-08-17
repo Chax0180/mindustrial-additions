@@ -3,9 +3,25 @@ name: Anax
 description: Fires sapping laser beams at enemy targets, repairing itself in the process. Protects itself with a directional shield.
 drag: 0.08
 accel: 0.09
-health: 110
-armor: 0.5
+health: 420
+armor: 2
 speed: 3
-hitSize: 5
+hitSize: 8
 flying: true
-faceTarget: false
+faceTarget: true
+weapons:[
+{
+weapon:
+}
+]
+abilities: [
+  {
+  type: ShieldArcAbility
+      radius: 5
+      angle: 15
+      width: 25
+      regen: 1
+      max: 600
+      whenShooting: true
+  }
+  ]
