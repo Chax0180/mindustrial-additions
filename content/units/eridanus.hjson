@@ -5,6 +5,7 @@ speed: 0.2
 rotatespeed: 0.002
 baseRotateSpeed:0.002
 stepShake: 5
+rippleScale: 3
 health: 54000
 commands: [move]
 armor: 1
