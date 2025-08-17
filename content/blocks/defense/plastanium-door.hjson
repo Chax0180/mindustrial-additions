@@ -12,6 +12,4 @@ absorbLasers: true
   ]
 category:defense
 size:2
-research: [
-parent: door-large
-]
+research: door-large
