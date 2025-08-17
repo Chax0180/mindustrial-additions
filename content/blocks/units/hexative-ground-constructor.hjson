@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Hexative Ground Constructor
-Produces third tier ground units. Output units can be used directly, or moved into reconstructors for upgrarding.
+description: Produces third tier ground units. Output units can be used directly, or moved into reconstructors for upgrarding.
 seperateItemCapacity: true
 size: 5
 plans: [
