@@ -55,6 +55,7 @@ exponential-reconstructor
 fortress
 quasar
 spiroct
+parent: ground-factory
 ]
 category:units
   consumes: {
