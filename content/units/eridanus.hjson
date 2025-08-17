@@ -58,13 +58,14 @@ weapons: [
       hitColor: 84f491
 
     }
-   {
-    type: ForceFieldAbility
-    radius: 80
-    max: 4150
-    cooldown: 420
-    regen: 0.75
   }
+ {
+    type: EnergyFieldAbility
+    damage: 1.7
+    reload: 90
+    range: 80
+    y: -5
+    sameTypeHealMult: 1.75
   }
 ]
 soundPitchMin: -0.1
