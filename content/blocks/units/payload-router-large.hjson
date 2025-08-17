@@ -19,7 +19,4 @@ requirements: [
 ]
 
 category: units
-research:[
-payload-router
-parent: payload-router
-]
+research: payload-router
