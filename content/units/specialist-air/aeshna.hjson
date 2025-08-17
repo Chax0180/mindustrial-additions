@@ -1,1 +1,41 @@
+type: flying
+name: Aeshna
+description: Flies toward enemy targets and self-destructs, causing a large explosion.
+drag: 0.08
+accel: 0.09
+health: 110
+armor: 0.5
+speed: 3
+hitSize: 5
+flying: true
+faceTarget: false
+weapons: [
+  {
+    shootOnDeath: true
+    targetUnderBlocks: false
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosion
+    x: 0
+    y: 0
+    mirror: false
 
+    bullet: {
+      type: basicBulletType
+      collidesTiles: false
+      collides: false
+      hitSound: explosion
+
+      rangeOverride: 25
+      hitEffect: pulverize
+      speed: 0
+      splashDamageRadius: 44
+      instantDisappear: true
+      splashDamage: 80
+      killShooter: true
+      hittable: false
+      collidesAir: true
+    }
+  }
+]
