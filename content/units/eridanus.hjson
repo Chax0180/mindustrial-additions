@@ -25,13 +25,16 @@ weapons: [
     shootSound: laserblast
     inaccuracy: 0
     shoot: {
-      firstShotDelay: 110
+      firstShotDelay: 90
       reload: 600
       shots: 1
-      shake: 5
+      shake: 20
+      lightningSpacing: 25
+      
       
     }
     shootStatus: unmoving
+    shootStatusDuration: 200
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
