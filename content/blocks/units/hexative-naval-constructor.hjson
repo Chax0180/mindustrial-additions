@@ -1,5 +1,6 @@
 type: UnitFactory
 name: Hexative Naval Constructor
+Produces third tier naval units. Output units can be used directly, or moved into reconstructors for upgrarding.
 seperateItemCapacity: true
 size: 5
 plans: [
