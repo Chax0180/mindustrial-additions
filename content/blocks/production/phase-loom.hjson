@@ -31,13 +31,7 @@ craftTime: 90
 craftEffect: smeltsmoke
 
 category: crafting
-research:[
-  surge-smelter
-  phase-weaver
-  silicon-crucible
-  kiln
-  parent: phase-weaver
-]
+research: phase-weaver
 drawer: {
   type: DrawMulti
   drawers: [
