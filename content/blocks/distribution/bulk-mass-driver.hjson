@@ -15,6 +15,7 @@ research: [
 phase-weaver
 mass-driver
 advanced-launch-pad
+parent: advanced-launch-pad
 ]
 requirements: [
   lead/210
