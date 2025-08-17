@@ -6,7 +6,7 @@ squareSprite: false
 laserRange: 131.25
 category: power
 research: surge-tower
-]
+
 consumes: {
   powerBuffered: 50000
 }
