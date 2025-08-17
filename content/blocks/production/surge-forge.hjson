@@ -37,12 +37,7 @@ craftTime: 120
 craftEffect: smeltsmoke
 
 category: crafting
-research:[
-  surge-smelter
-  phase-weaver
-  silicon-crucible
-parent: surge-smelter
-]
+research: surge-smelter
 drawer: {
   type: DrawMulti
   drawers: [
