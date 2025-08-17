@@ -20,4 +20,5 @@ requirements: [
 category: units
 research:[
 payload-conveyor
+parent: payload-conveyor
 ]
