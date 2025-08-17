@@ -31,5 +31,6 @@ abilities: [
       width: 10
       regen: 1
       max: 600
+    whenFiring: false
   }
   ]
