@@ -5,6 +5,8 @@ speed: 0.2
 rotatespeed: 0.002
 baseRotateSpeed:0.002
 stepShake: 5
+hitSize: 20
+deathShake: 20
 rippleScale: 3
 health: 54000
 commands: [move]
