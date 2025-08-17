@@ -10,7 +10,8 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
   copper/240
   surge-alloy/120
   ]
-research: overdrive-dome
+research: overdrive-projector
+
 reload: 250
   range: 150
   consumes: {
