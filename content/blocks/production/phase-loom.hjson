@@ -36,6 +36,7 @@ research:[
   phase-weaver
   silicon-crucible
   kiln
+  parent: phase-weaver
 ]
 drawer: {
   type: DrawMulti
