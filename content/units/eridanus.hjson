@@ -35,6 +35,7 @@ weapons: [
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
+      laserEffect: corvusLaserShootSmoke
       colors: [62ae7f, 84f491, ffffff]
       width: 2
       length: 100
