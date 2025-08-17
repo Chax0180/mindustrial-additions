@@ -13,12 +13,7 @@ silicon/80
 surge-alloy/30
 thorium/25
 ]
-research: [
-surge-smelter
-surge-alloy
-battery-large
-parent: battery-large
-]
+research: battery-large
 fullLightColor: 84f491
 emptyLightColor: ffd6b8
 baseExplosiveness: 2
