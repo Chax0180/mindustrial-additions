@@ -13,8 +13,5 @@ absorbLasers: true
 category:defense
 size:2
 research: [
-plastanium-wall-large
-thorium-wall-large
-door-large
 parent: door-large
 ]
