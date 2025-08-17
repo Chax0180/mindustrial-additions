@@ -35,10 +35,10 @@ weapons: [
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
-      laserEffect: corvusLaserShootSmoke
+      laserEffect: beam
       colors: [62ae7f, 84f491, ffffff]
-      width: 2
-      length: 100
+      width: 75
+      length: 580
       damage: 1300
       healPercent: 75
       collidesTeam: true
