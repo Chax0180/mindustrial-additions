@@ -25,11 +25,7 @@ outputLiquid: water/0.8
 
 liquidCapacity: 80
 category: production
-research:[
-  water-extractor
-  oil-extractor
-parent: oil-extractor
-]
+research: oil-extractor
 drawer: {
   type: DrawMulti
   drawers: [
