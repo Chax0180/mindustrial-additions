@@ -7,11 +7,11 @@ commands: [move]
 armor: 1
 flying: false
 legExtension: -2.5
-legMoveSpace: 1
+legMoveSpace: 0.6
 hovering: false
 isEnemy: false
 legCount: 6
-legLength: 60
+legLength: 25
 legSpeed: 0.23
 legForwardScl: .5
 hitSize: 6
