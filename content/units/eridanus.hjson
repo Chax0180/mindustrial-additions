@@ -12,6 +12,7 @@ flying: false
 legExtension: -2.5
 legMoveSpace: 1.2
 legBaseOffset: 14
+legContinuousMove: true
 hovering: false
 isEnemy: false
 legCount: 6
@@ -57,6 +58,13 @@ weapons: [
       hitColor: 84f491
 
     }
+   {
+    type: ForceFieldAbility
+    radius: 80
+    max: 4150
+    cooldown: 420
+    regen: 0.75
+  }
   }
 ]
 soundPitchMin: -0.1
