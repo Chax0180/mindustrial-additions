@@ -57,6 +57,7 @@ weapons: [
       shootEffect: greenBomb
       smokeEffect: shootBigSmoke
       hitColor: 84f491
+      largeHit: true
 
     }
   }
