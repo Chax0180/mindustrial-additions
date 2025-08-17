@@ -72,7 +72,7 @@ abilities: [
   {
   type: ShieldArcAbility
       whenShooting: true
-      region: eridanus-shield
+      region:eridanus-shield
   }
   ]
     sameTypeHealMult: 1.75
