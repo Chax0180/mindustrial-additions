@@ -11,9 +11,25 @@ flying: true
 faceTarget: true
 weapons:[
 {
-    x: 0
+    x: -25
     y: 3
-    reload: 15
+    reload: 30
+    mirror: false
+    rotate: false
+    shootSound: sap
+    inaccuracy: 1
+    shootStatus: slow
+    bullet: {
+    type: SapBulletType
+    color: bf92f9
+    sapStrength: 5
+    damage: 15
+    }
+}
+{
+    x: 25
+    y: 3
+    reload: 30
     mirror: false
     rotate: false
     shootSound: sap
