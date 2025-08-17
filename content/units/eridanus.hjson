@@ -35,7 +35,6 @@ weapons: [
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
-      laserEffect: beam
       colors: [62ae7f, 84f491, ffffff]
       width: 75
       length: 580
