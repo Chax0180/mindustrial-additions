@@ -1,6 +1,6 @@
 type: flying
 name: Erythemis
-description: Fires homing missiles at enemy targets. Protects itself with a point-defense turret.
+description: Fires homing missiles at enemy targets. Missiles suppress menders. Protects itself with a point-defense turret.
 drag: 0.08
 accel: 0.09
 health: 1000
@@ -29,17 +29,10 @@ weapons:[
     type: MissileBulletType
     color: bf92f9
     damage: 65
+    supressionRange: 15
+    supressColor: bf92f9
+    lightColor: bf92f9
+    lifeTime: 210
     }
 }
 ]
-abilities: [
-  {
-  type: ShieldArcAbility
-      radius: 20
-      angle: 110
-      width: 15
-      regen: 1
-      max: 1500
-    whenShooting: false
-  }
-  ]
