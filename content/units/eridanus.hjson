@@ -1,6 +1,6 @@
 type: legs
 name: Eridanus
-description: Fires a massive laser blast like it's predecessor. Posesses an energy field that shocks enemy targets and repairs all allies within range. Protects itself with a directional shield when firing.
+description: Fires a massive laser blast like it's predecessor. Posesses an energy field that shocks enemy targets and repairs all allies within range. Protects itself with a directional shield.
 speed: 0.2
 rotatespeed: 0.002
 baseRotateSpeed:0.002
@@ -68,6 +68,17 @@ abilities: [
     reload: 90
     range: 240
     y: -5
+  }
+  {
+  type: ShieldArcAbility
+      radius = 36f;
+      angle = 82f;
+      regen = 0.6f;
+      cooldown = 60f * 8f;
+      max = 2000f;
+      y = -20f;
+      width = 6f;
+      whenShooting: true
   }
   ]
     sameTypeHealMult: 1.75
