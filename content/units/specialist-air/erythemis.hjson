@@ -14,14 +14,17 @@ weapons:[
     name: purple-missile-launcher
     x: 10
     y: -6
-    reload: 60
+    reload: 40
     mirror: true
     alternate: true
     rotate: false
-    shootSound: shootMissile
+    shootSound: missile
     inaccuracy: 30
     shootStatus: slow
+    shoot: {
     shots: 3
+    shotDelay: 5
+    }
     bullet: {
     type: MissileBulletType
     color: bf92f9
