@@ -12,7 +12,7 @@ faceTarget: true
 weapons:[
 {
     x: 5
-    y: 3
+    y: -4
     reload: 15
     mirror: true
     alternate: true
