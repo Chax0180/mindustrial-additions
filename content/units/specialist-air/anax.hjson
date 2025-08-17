@@ -18,10 +18,12 @@ weapons:[
     rotate: false
     shootSound: sap
     inaccuracy: 1
+    shootStatus: fast
     bullet: {
     type: SapBulletType
     color: bf92f9
-    sapStrength: 2
+    sapStrength: 1.5
+    damage: 3
     }
 }
 ]
