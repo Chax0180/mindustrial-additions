@@ -1,1 +1,41 @@
-
+type: flying
+name: Erythemis
+description: Fires homing missiles at enemy targets. Protects itself with a point-defense turret.
+drag: 0.08
+accel: 0.09
+health: 1000
+armor: 2
+speed: 2.5
+hitSize: 12
+flying: true
+faceTarget: true
+weapons:[
+{
+    name: purple-missile-launcher
+    x: 10
+    y: -6
+    reload: 20
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: sap
+    inaccuracy: 30
+    shootStatus: slow
+    bullet: {
+    type: MissileBulletType
+    color: bf92f9
+    damage: 65
+    }
+}
+]
+abilities: [
+  {
+  type: ShieldArcAbility
+      radius: 20
+      angle: 110
+      width: 15
+      regen: 1
+      max: 1500
+    whenShooting: false
+  }
+  ]
