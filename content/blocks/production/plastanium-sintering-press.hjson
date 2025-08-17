@@ -37,11 +37,7 @@ craftEffect: formsmoke
 updateEffect: fuelburn
 
 category: crafting
-research:[
-  plastanium-compressor
-  silicon-crucible
-parent: plastanium-compressor
-]
+research: multi-press
 drawer: {
   type: DrawMulti
   drawers: [
