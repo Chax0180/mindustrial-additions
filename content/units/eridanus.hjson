@@ -72,9 +72,9 @@ abilities: [
   {
   type: ShieldArcAbility
       radius: 25
-      drawArc: false
-      region: @eridanus-shield
-      regen: 0.15
+      angle: 120
+      width: 25
+      regen: 1
       max: 8000
       whenShooting: true
   }
