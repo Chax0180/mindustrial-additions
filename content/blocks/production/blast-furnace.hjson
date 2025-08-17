@@ -33,11 +33,7 @@ craftEffect: smeltsmoke
 boostScale: 0.14
 
 category: crafting
-research:[
-  silicon-crucible
-  kiln
-parent: kiln
-]
+research: multi-press
 drawer: {
   type: DrawMulti
   drawers: [
