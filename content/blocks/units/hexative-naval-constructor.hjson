@@ -41,6 +41,7 @@ multiplicative-reconstructor
 exponential-reconstructor
 bryde
 cyerce
+parent: naval-factory
 ]
 category:units
   consumes: {
