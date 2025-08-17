@@ -27,8 +27,8 @@ drawer: {
     }
     {
       type: DrawCrucibleFlame
-      square: true
-      color: 84f491
+      flameColor: 84f491
+      midColor: 84f491
     }
   ]
 } 
