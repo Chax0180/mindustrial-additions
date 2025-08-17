@@ -1,7 +1,6 @@
 type: legs
 name: Eridanus
 description: Fires a massive laser blast like it's predecessor. Posesses an energy field that shocks enemy targets and repairs all allies within range. Protects itself with a directional shield.
-subtitle: Experimental unit, not made for campaign use or really anywhere.
 speed: 0.2
 rotatespeed: 0.002
 baseRotateSpeed:0.002
