@@ -60,13 +60,11 @@ weapons: [
     }
   }
 ]
- {
-    type: EnergyFieldAbility
+ability: EnergyFieldAbility
     damage: 1.7
     reload: 90
     range: 80
     y: -5
     sameTypeHealMult: 1.75
-  }
 soundPitchMin: -0.1
 soundPitchMax: 0.1
