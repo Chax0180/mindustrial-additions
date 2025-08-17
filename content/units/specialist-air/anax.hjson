@@ -20,6 +20,7 @@ weapons:[
     inaccuracy: 1
     bullet: {
     type: SapBulletType
+    color: bf92f9
     }
 }
 ]
@@ -31,6 +32,6 @@ abilities: [
       width: 10
       regen: 1
       max: 600
-    whenFiring: false
+    whenShooting: false
   }
   ]
