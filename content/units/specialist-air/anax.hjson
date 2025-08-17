@@ -19,9 +19,7 @@ weapons:[
     shootSound: sap
     inaccuracy: 1
 }
-    bullet: {
-      type: SapBulletType
-    }
+bullet: type: SapBulletType
 ]
 abilities: [
   {
