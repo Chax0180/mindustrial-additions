@@ -1,5 +1,5 @@
 type: flying
-name: Anax
+name: Aeshna
 description: Flies toward enemy targets and self-destructs, causing a large explosion.
 drag: 0.08
 accel: 0.09
