@@ -13,6 +13,7 @@ description: Repairs blocks in its vicinity. Requires phase fabric and silicon t
 research: [
 mend-projector
 overdrive-dome
+parent: mend-projector
 ]
 reload: 250
   range: 150
