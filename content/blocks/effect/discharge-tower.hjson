@@ -1,4 +1,4 @@
-type: BaseTurret
+type: MendProjector
   name: Discharge Tower
 description: Maintains an energy field that shocks enemy units and blocks, and heals allies.
   size: 2
