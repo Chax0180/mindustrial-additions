@@ -42,6 +42,7 @@ multiplicative-reconstructor
 exponential-reconstructor
 zenith
 mega
+parent: air-factory
 ]
 category:units
   consumes: {
