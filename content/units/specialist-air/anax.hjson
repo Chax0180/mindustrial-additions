@@ -9,3 +9,12 @@ speed: 3
 hitSize: 5
 flying: true
 faceTarget: false
+abilities: [
+  {
+    type: ExplodeAbility
+    range: 50
+    damage: 120
+    splashDamageRadius: 60
+    splashDamage: 60
+  }
+]
