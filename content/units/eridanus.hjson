@@ -28,7 +28,6 @@ weapons: [
       firstShotDelay: 50
       reload: 600
       shots: 1
-      shake: 20
       lightningSpacing: 25
       
       
@@ -38,6 +37,7 @@ weapons: [
     chargeSound: lasercharge
     bullet: {
       type: LaserBulletType
+      shake: 20
       colors: [62ae7f, 84f491, ffffff]
       width: 75
       length: 580
