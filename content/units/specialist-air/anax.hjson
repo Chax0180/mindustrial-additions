@@ -13,7 +13,7 @@ weapons:[
 {
     x: 0
     y: 3
-    reload: 94
+    reload: 10
     mirror: false
     rotate: false
     shootSound: sap
@@ -28,6 +28,5 @@ abilities: [
       width: 10
       regen: 1
       max: 600
-      whenShooting: true
   }
   ]
