@@ -41,6 +41,7 @@ research:[
   surge-smelter
   phase-weaver
   silicon-crucible
+parent: surge-smelter
 ]
 drawer: {
   type: DrawMulti
