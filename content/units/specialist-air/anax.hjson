@@ -23,8 +23,8 @@ weapons:[
 abilities: [
   {
   type: ShieldArcAbility
-      radius: 5
-      angle: 90
+      radius: 15
+      angle: 120
       width: 10
       regen: 1
       max: 600
