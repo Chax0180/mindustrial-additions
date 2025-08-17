@@ -13,17 +13,17 @@ weapons:[
 {
     x: 0
     y: 3
-    reload: 30
+    reload: 15
     mirror: false
     rotate: false
     shootSound: sap
     inaccuracy: 1
-    shootStatus: fast
+    shootStatus: slow
     bullet: {
     type: SapBulletType
     color: bf92f9
     sapStrength: 5
-    damage: 20
+    damage: 15
     }
 }
 ]
