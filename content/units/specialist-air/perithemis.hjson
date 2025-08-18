@@ -45,8 +45,8 @@ weapons:[
       backColor: bf92f9
       lightColor: bf92f9
       lightOpacity: 0.7
-      hitSound: laser
-      despawnSound: laser
+      hitSound: explosion
+      despawnSound: explosion
       frontColor: bf92f9
         supressionRange: 25
          supressColor: bf92f9
