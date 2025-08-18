@@ -70,6 +70,52 @@ weapons:[
     }
     }
 }
+{
+    name: purple-laser-cannon
+    rotate: true
+    rotateSpeed: 2
+    x: 5
+    y: 10
+    reload: 10
+    mirror: true
+    alternate: true
+    shootSound: shootSnap
+    inaccuracy: 10
+    bullet: {
+      type: FlakBulletType
+    collidesGround: false
+      homingPower: 0.12
+      homingDelay: 15
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 4
+      lifetime: 75
+      damage: 32
+      pierce: true
+      pierceCap: 2
+      collidesTeam: false
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      hitSound: explosion
+      despawnSound: explosion
+      frontColor: bf92f9
+        supressionRange: 25
+         supressColor: bf92f9
+        knockback: 0.75
+
+fragBullet:
+    type: BulletType
+    collidesGround: false
+    }
+    }
+}
 ]
 abilities: [
 {
