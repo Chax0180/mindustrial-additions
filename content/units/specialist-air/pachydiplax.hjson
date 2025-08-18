@@ -24,9 +24,9 @@ weapons:[
     inaccuracy: 50
     shootStatus: slow
     shoot: {
-      type: shootAlternate
+      type: ShootAlternate
       shots: 3
-      barrels: [ -6, 0, 6 ]
+      barrels: 3
     }
     bullet: {
       type: MissileBulletType
