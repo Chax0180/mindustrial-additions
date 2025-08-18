@@ -15,7 +15,7 @@ weapons:[
     name: purple-laser-cannon
     rotate: true
     rotateSpeed: 2
-    x: 10
+    x: 15
     y: -5
     reload: 10
     mirror: true
@@ -74,13 +74,12 @@ weapons:[
 ]
 abilities: [
 {
-type: ShieldArcAbility
-radius: 50
-angle: 365
-width: 10
-regen: 3
-max: 4500
-whenShooting: false
+type: supressionFieldAbility
+color:bf92f9
+}
+{
+type: energyFieldAbility
+color: bf92f9
 }
 ]
 engineOffset: 15
