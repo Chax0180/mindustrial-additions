@@ -1,7 +1,7 @@
 type: flying
 name: Perithemis
 lowAltitude: true
-description: Fires homing laser charges and a barrage of aerial flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
+description: Fires homing laser charges and a barrage of flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
 drag: 0.08
 rotateSpeed: 1.25
 accel: 0.09
@@ -18,11 +18,15 @@ weapons:[
     rotateSpeed: 2
     x: 15
     y: -5
-    reload: 10
+    reload: 30
     mirror: true
     alternate: true
     shootSound: malignShoot
     inaccuracy: 0
+    shoot: {
+    shots: 3
+    shotDelay: 10
+    }
     bullet: {
       type: MissileBulletType
     sprite: missile-large
@@ -79,16 +83,19 @@ weapons:[
     rotateSpeed: 2
     x: 8
     y: 12
-    reload: 2.5
+    reload: 30
     mirror: true
     alternate: true
     shootSound: shootSnap
-    inaccuracy: 30
+    inaccuracy: 15
+    shoot: {
+    shots: 5
+    shotDelay: 5
+    }
     bullet: {
       type: FlakBulletType
     shootEffect: shootBig
     shootSmoke: ShootBigSmoke
-    collidesGround: false
       homingPower: 0.12
       homingDelay: 15
       width: 10
