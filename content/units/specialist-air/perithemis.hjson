@@ -18,14 +18,14 @@ weapons:[
     rotateSpeed: 2
     x: 15
     y: -5
-    reload: 60
+    reload: 40
     mirror: true
     alternate: true
     shootSound: malignShoot
     inaccuracy: 10
     shoot: {
     shots: 3
-    shotDelay: 2.5
+    shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
