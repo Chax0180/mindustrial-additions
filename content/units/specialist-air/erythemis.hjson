@@ -1,4 +1,4 @@
-ttype: flying
+type: flying
 name: Erythemis
 lowAltitude: true
 description: Fires long range homing missiles at enemy targets. Protects itself with a circular shield.
