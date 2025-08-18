@@ -1,1 +1,56 @@
+type: flying
+name: Pachydiplax
+lowAltitude: true
+description: Fires a spray of homing missiles at enemy targets. Possesses two automatic sapping laser beam turrets that repair itself, and a shield generator.
+drag: 0.08
+accel: 0.09
+health: 7600
+armor: 9
+speed: 1.75
+hitSize: 32
+flying: true
+faceTarget: true
+weapons:[
+{
+    name: purple-swarmer
+    x: 0
+    y: -5
+    reload: 5
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: missile
+    inaccuracy: 50
+    shootStatus: slow
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.12
+      homingDelay: 15
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 4
+      lifetime: 75
+      damage: 32
+      pierce: true
+      pierceCap: 3
+      collidesTeam: true
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      hitSound: explosion
+      despawnSound: explosion
+      frontColor: bf92f9
+        knockback: 0.25
+    }
+}
+]
+abilities: [
 
+]
+engineOffset: 2
