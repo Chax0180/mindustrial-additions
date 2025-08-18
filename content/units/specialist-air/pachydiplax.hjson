@@ -47,7 +47,7 @@ weapons:[
       frontColor: bf92f9
         knockback: 0.25
     }
-{
+    {
     name: heavy-sapper-mount
     controllable: false
     x: 8
@@ -62,6 +62,7 @@ weapons:[
     color: bf92f9
     sapStrength: 10
     damage: 80
+    }
     }
 }
 ]
