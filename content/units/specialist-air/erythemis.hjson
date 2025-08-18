@@ -33,8 +33,8 @@ weapons:[
       weaveMag: 3
       width: 9
       height: 13
-      speed: 2
-      lifetime: 90
+      speed: 4
+      lifetime: 75
       damage: 32
       pierce: true
       pierceCap: 3
