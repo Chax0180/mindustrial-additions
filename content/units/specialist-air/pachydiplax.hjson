@@ -17,7 +17,7 @@ weapons:[
     baseRotation: 0.5
     x: 0
     y: -5
-    reload: 5
+    reload: 20
     mirror: false
     rotate: false
     shootSound: missile
@@ -27,6 +27,7 @@ weapons:[
       type: ShootAlternate
       shots: 3
       barrels: 3
+    shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
