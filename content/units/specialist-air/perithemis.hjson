@@ -112,6 +112,7 @@ range: 200
 type: EnergyFieldAbility
 color: bf92f9
 range: 200
+healPercent: 0.25
 }
 ]
 engineOffset: 26
