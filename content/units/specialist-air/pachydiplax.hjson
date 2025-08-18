@@ -13,6 +13,7 @@ faceTarget: true
 weapons:[
 {
     name: purple-swarmer
+    rotate: true
     x: 0
     y: -5
     reload: 5
@@ -51,8 +52,10 @@ weapons:[
     {
     name: heavy-sapper-mount
     controllable: false
-    x: 8
-    y: -10
+    rotate: true
+    autoTarget: true
+    x: 16
+    y: -12
     reload: 60
     mirror: true
     rotate: false
