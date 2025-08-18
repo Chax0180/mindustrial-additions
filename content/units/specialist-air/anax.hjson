@@ -1,6 +1,6 @@
 type: flying
 name: Anax
-description: Fires sapping laser beams at enemy targets, repairing itself in the process. Protects itself with a directional shield.
+description: Fires sapping laser beams at enemy targets, repairing itself in the process. Protects itself with a circular shield.
 drag: 0.08
 accel: 0.09
 health: 420
