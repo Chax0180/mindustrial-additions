@@ -4,7 +4,7 @@ lowAltitude: true
 description: Fires heavy missiles and homing laser charges at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
 drag: 0.08
 accel: 0.09
-health: 1000
+health: 19000
 armor: 2
 speed: 2.5
 hitSize: 12
@@ -54,31 +54,19 @@ weapons:[
       frontColor: bf92f9
         supressionRange: 25
          supressColor: bf92f9
-        knockback: 0.5
-    fragBullet: LaserBulletType
-      colors: [bf92f9, 665c9f, ffffff]
-      width: 3
-      length: 108
-      damage: 110
-      collidesTeam: false
-      pierce: true
-      pierceBuilding: true
-      pierceCap: -1
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      hitColor: 665c9f
+        knockback: 0.75
     }
 }
 ]
 abilities: [
 {
 type: ShieldArcAbility
-radius: 30
+radius: 50
 angle: 365
 width: 10
-regen: 1
-max: 1500
+regen: 3
+max: 4500
 whenShooting: false
 }
 ]
-engineOffset: 9
+engineOffset: 15
