@@ -36,7 +36,7 @@ weapons:[
       height: 13
       speed: 4
       lifetime: 60
-      damage: 22
+      damage: 31
       pierce: true
       pierceCap: 2
       collidesTeam: false
@@ -62,7 +62,7 @@ weapons:[
       colors: [bf92f9, 665c9f, ffffff]
       width: 10
       length: 108
-      damage: 32
+      damage: 52
       collidesTeam: false
       pierce: true
       pierceBuilding: true
@@ -75,8 +75,6 @@ weapons:[
 }
 {
     name: purple-missile-large
-    controllable: false
-    autoTarget: true
     rotate: true
     rotateSpeed: 2
     x: 8
