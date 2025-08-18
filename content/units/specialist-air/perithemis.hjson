@@ -3,6 +3,7 @@ name: Perithemis
 lowAltitude: true
 description: Fires homing laser charges and a barrage of flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
 drag: 0.08
+rotateSpeed: 0.5
 accel: 0.09
 health: 19000
 armor: 11
@@ -32,7 +33,7 @@ weapons:[
       width: 9
       height: 13
       speed: 4
-      lifetime: 75
+      lifetime: 60
       damage: 32
       pierce: true
       pierceCap: 2
@@ -74,13 +75,14 @@ weapons:[
     name: purple-missile-large
     rotate: true
     rotateSpeed: 2
+    baseRotate: 45
     x: 8
     y: 12
     reload: 2.5
     mirror: true
     alternate: true
     shootSound: shootSnap
-    inaccuracy: 10
+    inaccuracy: 50
     bullet: {
       type: FlakBulletType
     collidesGround: false
@@ -89,15 +91,12 @@ weapons:[
       width: 9
       height: 13
       speed: 4
-      lifetime: 75
+      lifetime: 80
       damage: 10
       pierce: true
       pierceCap: 2
       collidesTeam: false
-      trailChance: -1
-      trailLength: 22
-      trailWidth: 2.2
-      lightOpacity: 0.7
+      lightOpacity: 0.2
       hitSound: explosion
       despawnSound: explosion
     }
