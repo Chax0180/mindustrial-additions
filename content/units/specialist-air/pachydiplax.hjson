@@ -73,7 +73,7 @@ weapons:[
     length: 200
     color: bf92f9
     width: 1.5
-    sapStrength: 10
+    sapStrength: 2
     damage: 80
     }
     }
