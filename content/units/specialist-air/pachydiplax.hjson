@@ -55,7 +55,6 @@ weapons:[
       frontColor: bf92f9
         knockback: 0.25
     }
-}
     {
     name: heavy-sapper-mount
     controllable: false
