@@ -11,7 +11,7 @@ flying: true
 faceTarget: true
 weapons:[
 {
-    name: purple-missile-launcher
+    name: purple-missiles
     x: 10
     y: -6
     reload: 40
