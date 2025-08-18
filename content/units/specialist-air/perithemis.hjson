@@ -109,9 +109,6 @@ weapons:[
         supressionRange: 25
          supressColor: bf92f9
         knockback: 0.75
-
-fragBullet:
-    collidesGround: false
     }
     }
 ]
