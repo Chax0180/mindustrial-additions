@@ -67,4 +67,4 @@ max: 1500
 whenShooting: false
 }
 ]
-engineOffset: 6
+engineOffset: 12
