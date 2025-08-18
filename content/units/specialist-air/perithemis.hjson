@@ -75,7 +75,7 @@ weapons:[
     name: purple-missile-large
     rotate: true
     rotateSpeed: 2
-    baseRotate: 45
+    baseRotation: 45
     x: 8
     y: 12
     reload: 2.5
@@ -88,10 +88,10 @@ weapons:[
     collidesGround: false
       homingPower: 0.12
       homingDelay: 15
-      width: 9
-      height: 13
-      speed: 4
-      lifetime: 80
+      width: 10
+      height: 10
+      speed: 6
+      lifetime: 60
       damage: 10
       pierce: true
       pierceCap: 2
