@@ -1,5 +1,6 @@
 type: flying
 name: Erythemis
+lowAltitude: true
 description: Fires homing missiles at enemy targets. Missiles suppress menders. Protects itself with a point-defense turret.
 drag: 0.08
 accel: 0.09
@@ -12,8 +13,8 @@ faceTarget: true
 weapons:[
 {
     name: purple-missiles
-    x: 10
-    y: -6
+    x: 5
+    y: -2
     reload: 40
     mirror: true
     alternate: true
