@@ -6,7 +6,7 @@ drag: 0.08
 accel: 0.09
 health: 19000
 armor: 11
-speed: 0.75
+speed: 1.25
 hitSize: 40
 flying: true
 faceTarget: true
@@ -22,7 +22,6 @@ weapons:[
     alternate: true
     shootSound: malignShoot
     inaccuracy: 0
-    shootStatus: slow
     bullet: {
       type: MissileBulletType
     sprite: missile-large
