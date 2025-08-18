@@ -1,1 +1,71 @@
-
+type: flying
+name: Perithemis
+lowAltitude: true
+description: Fires heavy missiles and homing laser charges at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
+drag: 0.08
+accel: 0.09
+health: 1000
+armor: 2
+speed: 2.5
+hitSize: 12
+flying: true
+faceTarget: true
+weapons:[
+{
+    name: purple-laser-cannon
+    rotate: true
+    rotateSpeed: 2
+    x: 10
+    y: -5
+    reload: 10
+    mirror: true
+    alternate: true
+    shootSound: malignShoot
+    inaccuracy: 30
+    shootStatus: slow
+    shoot: {
+    shots: 3
+    shotDelay: 5
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.12
+      homingDelay: 15
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 4
+      lifetime: 75
+      damage: 32
+      pierce: true
+      pierceCap: 3
+      collidesTeam: true
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      hitSound: explosion
+      despawnSound: explosion
+      frontColor: bf92f9
+        supressionRange: 25
+         supressColor: bf92f9
+        knockback: 0.5
+    }
+}
+]
+abilities: [
+{
+type: ShieldArcAbility
+radius: 30
+angle: 365
+width: 10
+regen: 1
+max: 1500
+whenShooting: false
+}
+]
+engineOffset: 9
