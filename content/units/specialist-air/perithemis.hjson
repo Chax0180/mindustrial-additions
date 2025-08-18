@@ -6,7 +6,7 @@ drag: 0.08
 accel: 0.09
 health: 19000
 armor: 11
-speed: 2.5
+speed: 0.75
 hitSize: 40
 flying: true
 faceTarget: true
