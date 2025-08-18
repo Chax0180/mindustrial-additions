@@ -36,7 +36,7 @@ weapons:[
       height: 13
       speed: 4
       lifetime: 60
-      damage: 32
+      damage: 22
       pierce: true
       pierceCap: 2
       collidesTeam: false
@@ -62,7 +62,7 @@ weapons:[
       colors: [bf92f9, 665c9f, ffffff]
       width: 10
       length: 108
-      damage: 110
+      damage: 32
       collidesTeam: false
       pierce: true
       pierceBuilding: true
