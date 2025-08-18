@@ -56,6 +56,17 @@ weapons:[
          supressColor: bf92f9
         knockback: 0.5
     fragBullet: LaserBulletType
+      colors: [bf92f9, 665c9f, ffffff]
+      width: 3
+      length: 108
+      damage: 110
+      collidesTeam: false
+      pierce: true
+      pierceBuilding: true
+      pierceCap: -1
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: 665c9f
     }
 }
 ]
