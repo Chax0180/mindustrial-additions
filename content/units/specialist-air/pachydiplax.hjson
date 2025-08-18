@@ -23,6 +23,10 @@ weapons:[
     shootSound: missile
     inaccuracy: 50
     shootStatus: slow
+    shoot: {
+    barrels: [-6, 0, 6]
+    
+    }
     bullet: {
       type: MissileBulletType
       homingPower: 0.12
