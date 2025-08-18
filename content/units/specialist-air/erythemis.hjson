@@ -14,7 +14,7 @@ weapons:[
 {
     name: purple-missiles
     rotate: true
-    baseRotation: 1
+    rotateSpeed: 2
     x: 5
     y: -2
     reload: 40
