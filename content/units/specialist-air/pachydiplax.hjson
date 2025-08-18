@@ -15,11 +15,11 @@ weapons:[
     name: purple-swarmer
     rotate: true
     rotateSpeed: 1
+    shootCone: 50
     x: 0
     y: -5
     reload: 15
     mirror: false
-    rotate: false
     shootSound: missile
     inaccuracy: 50
     shootStatus: slow
@@ -61,12 +61,12 @@ weapons:[
     controllable: false
     rotate: true
      rotateSpeed: 1
+    
     autoTarget: true
     x: 16
     y: -12
     reload: 15
     mirror: true
-    rotate: false
     shootSound: sap
     inaccuracy: 1
     bullet: {
