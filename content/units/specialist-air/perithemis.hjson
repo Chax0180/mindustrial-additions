@@ -74,11 +74,11 @@ weapons:[
 ]
 abilities: [
 {
-type: supressionFieldAbility
+type: SuppressionFieldAbility
 color:bf92f9
 }
 {
-type: energyFieldAbility
+type: EnergyFieldAbility
 color: bf92f9
 }
 ]
