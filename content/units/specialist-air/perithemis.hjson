@@ -5,7 +5,7 @@ description: Fires heavy missiles and homing laser charges at enemy targets. Sup
 drag: 0.08
 accel: 0.09
 health: 19000
-armor: 8
+armor: 11
 speed: 2.5
 hitSize: 40
 flying: true
