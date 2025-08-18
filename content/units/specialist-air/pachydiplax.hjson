@@ -27,7 +27,7 @@ weapons:[
       type: ShootAlternate
       shots: 3
       barrels: 3
-    shotDelay: 1
+    shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
