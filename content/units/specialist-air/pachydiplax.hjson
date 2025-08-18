@@ -17,7 +17,7 @@ weapons:[
     baseRotation: 0.5
     x: 0
     y: -5
-    reload: 0
+    reload: 15
     mirror: false
     rotate: false
     shootSound: missile
