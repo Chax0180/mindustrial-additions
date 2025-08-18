@@ -78,4 +78,5 @@ weapons:[
     }
     }
 ]
-engineOffset: 20
+engineOffset: 21
+engineSize: 7
