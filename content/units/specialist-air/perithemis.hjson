@@ -52,6 +52,9 @@ weapons:[
          supressColor: bf92f9
         knockback: 0.75
 
+    fragRandomSpread: 0
+    fragBullets: 1
+
         fragBullet: {
         type: LaserBulletType
       colors: [bf92f9, 665c9f, ffffff]
