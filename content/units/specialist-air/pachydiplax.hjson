@@ -14,7 +14,7 @@ weapons:[
 {
     name: purple-swarmer
     rotate: true
-    baseRotation: 0.5
+    rotateSpeed: 1
     x: 0
     y: -5
     reload: 15
@@ -60,7 +60,7 @@ weapons:[
     name: heavy-sapper-mount
     controllable: false
     rotate: true
-    baseRotation: 0.5
+     rotateSpeed: 1
     autoTarget: true
     x: 16
     y: -12
