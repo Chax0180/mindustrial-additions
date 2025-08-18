@@ -1,7 +1,7 @@
 type: flying
 name: Erythemis
 lowAltitude: true
-description: Fires homing missiles at enemy targets. Missiles suppress menders. Protects itself with a point-defense turret.
+description: Fires long range homing missiles at enemy targets. Protects itself with a circular shield.
 drag: 0.08
 accel: 0.09
 health: 1000
@@ -54,5 +54,15 @@ weapons:[
          supressColor: bf92f9
         knockback: 0.5
     }
+}
+]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 15
+regen: 1
+max: 1500
+sides: 8
+
 }
 ]
