@@ -74,6 +74,7 @@ weapons:[
 {
     name: purple-missile-large
     controllable: false
+    autoTarget: true
     rotate: true
     rotateSpeed: 2
     x: 8
