@@ -17,18 +17,14 @@ weapons:[
     rotateSpeed: 2
     x: 10
     y: -5
-    reload: 30
+    reload: 15
     mirror: true
     alternate: true
     shootSound: malignShoot
     inaccuracy: 30
     shootStatus: slow
-    shoot: {
-    shots: 3
-    shotDelay: 5
-    }
     bullet: {
-      type: FlakBulletType
+      type: MissileBulletType
     sprite: missile-large
       homingPower: 0.12
       homingDelay: 15
@@ -40,8 +36,8 @@ weapons:[
       lifetime: 75
       damage: 32
       pierce: true
-      pierceCap: 3
-      collidesTeam: true
+      pierceCap: 2
+      collidesTeam: false
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
@@ -55,6 +51,21 @@ weapons:[
         supressionRange: 25
          supressColor: bf92f9
         knockback: 0.75
+
+        fragBullet: {
+        type: LaserBulletType
+      colors: [bf92f9, 665c9f, ffffff]
+      width: 3
+      length: 108
+      damage: 110
+      collidesTeam: false
+      pierce: true
+      pierceBuilding: true
+      pierceCap: -1
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: 665c9f
+    }
     }
 }
 ]
