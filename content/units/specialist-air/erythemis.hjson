@@ -28,7 +28,7 @@ weapons:[
     bullet: {
       type: MissileBulletType
       homingPower: 0.12
-      homingDelay: 60
+      homingDelay: 15
       weaveScale: 3
       weaveMag: 3
       width: 9
