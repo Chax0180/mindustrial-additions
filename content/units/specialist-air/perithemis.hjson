@@ -76,10 +76,12 @@ abilities: [
 {
 type: SuppressionFieldAbility
 color:bf92f9
+range: 200
 }
 {
 type: EnergyFieldAbility
 color: bf92f9
+range: 200
 }
 ]
-engineOffset: 15
+engineOffset: 25
