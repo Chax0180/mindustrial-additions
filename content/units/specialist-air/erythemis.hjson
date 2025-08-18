@@ -13,6 +13,7 @@ faceTarget: true
 weapons:[
 {
     name: purple-missiles
+    rotate: true
     x: 5
     y: -2
     reload: 40
