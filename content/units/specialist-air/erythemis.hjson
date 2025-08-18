@@ -1,7 +1,7 @@
-type: flying
+ttype: flying
 name: Erythemis
 lowAltitude: true
-description: Fires long range homing missiles at enemy targets. Protects itself with a circular shield.
+description: Fires long range homing missiles at enemy targets. Protects itself with a directional shield.
 drag: 0.08
 accel: 0.09
 health: 1000
@@ -58,11 +58,10 @@ weapons:[
 ]
 abilities: [
 {
-type: ForceFieldAbility
-radius: 15
+type: ShieldArcAbility
+radius: 30
+width: 15
 regen: 1
 max: 1500
-sides: 8
-
 }
 ]
