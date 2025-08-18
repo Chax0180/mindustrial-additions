@@ -3,7 +3,7 @@ name: Perithemis
 lowAltitude: true
 description: Fires homing laser charges and a barrage of flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
 drag: 0.08
-rotateSpeed: 0.5
+rotateSpeed: 1.25
 accel: 0.09
 health: 19000
 armor: 11
@@ -75,7 +75,6 @@ weapons:[
     name: purple-missile-large
     rotate: true
     rotateSpeed: 2
-    baseRotation: 45
     x: 8
     y: 12
     reload: 2.5
