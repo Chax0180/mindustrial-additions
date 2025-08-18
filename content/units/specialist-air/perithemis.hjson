@@ -17,7 +17,7 @@ weapons:[
     rotateSpeed: 2
     x: 10
     y: -5
-    reload: 10
+    reload: 30
     mirror: true
     alternate: true
     shootSound: malignShoot
@@ -28,7 +28,8 @@ weapons:[
     shotDelay: 5
     }
     bullet: {
-      type: MissileBulletType
+      type: FlakBulletType
+    sprite: missile-large
       homingPower: 0.12
       homingDelay: 15
       weaveScale: 3
@@ -54,6 +55,7 @@ weapons:[
         supressionRange: 25
          supressColor: bf92f9
         knockback: 0.5
+    fragBullet: LaserBulletType
     }
 }
 ]
