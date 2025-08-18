@@ -26,6 +26,8 @@ weapons:[
     bullet: {
       type: MissileBulletType
     sprite: missile-large
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
       homingPower: 0.12
       homingDelay: 15
       weaveScale: 3
@@ -65,8 +67,8 @@ weapons:[
       pierce: true
       pierceBuilding: true
       pierceCap: -1
-      shootEffect: none
-      smokeEffect: none
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
       hitColor: 665c9f
     }
     }
@@ -86,6 +88,8 @@ weapons:[
     inaccuracy: 30
     bullet: {
       type: FlakBulletType
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
     collidesGround: false
       homingPower: 0.12
       homingDelay: 15
