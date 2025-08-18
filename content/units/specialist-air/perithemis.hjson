@@ -1,7 +1,7 @@
 type: flying
 name: Perithemis
 lowAltitude: true
-description: Fires homing laser charges and a barrage of flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
+description: Fires homing laser charges and a barrage of aerial flak at enemy targets. Supresses enemy structure repair blocks, and shocks enemy units and structures that enter its energy field. Repairs all allies.
 drag: 0.08
 rotateSpeed: 1.25
 accel: 0.09
