@@ -49,8 +49,9 @@ weapons:[
       hitSound: explosion
       despawnSound: explosion
       frontColor: bf92f9
-        supressionRange: 15
+        supressionRange: 25
          supressColor: bf92f9
+        knockback: 0.5
     }
 }
 ]
