@@ -17,11 +17,11 @@ weapons:[
     rotateSpeed: 2
     x: 10
     y: -5
-    reload: 15
+    reload: 10
     mirror: true
     alternate: true
     shootSound: malignShoot
-    inaccuracy: 30
+    inaccuracy: 0
     shootStatus: slow
     bullet: {
       type: MissileBulletType
@@ -45,8 +45,8 @@ weapons:[
       backColor: bf92f9
       lightColor: bf92f9
       lightOpacity: 0.7
-      hitSound: explosion
-      despawnSound: explosion
+      hitSound: laser
+      despawnSound: laser
       frontColor: bf92f9
         supressionRange: 25
          supressColor: bf92f9
@@ -58,15 +58,15 @@ weapons:[
         fragBullet: {
         type: LaserBulletType
       colors: [bf92f9, 665c9f, ffffff]
-      width: 3
+      width: 10
       length: 108
       damage: 110
       collidesTeam: false
       pierce: true
       pierceBuilding: true
       pierceCap: -1
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      shootEffect: none
+      smokeEffect: none
       hitColor: 665c9f
     }
     }
