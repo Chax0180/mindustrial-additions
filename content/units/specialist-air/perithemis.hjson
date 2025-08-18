@@ -82,7 +82,7 @@ weapons:[
     mirror: true
     alternate: true
     shootSound: shootSnap
-    inaccuracy: 50
+    inaccuracy: 30
     bullet: {
       type: FlakBulletType
     collidesGround: false
