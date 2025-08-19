@@ -3,11 +3,11 @@ name: Mako
 description: Rapidly fires a barrage of flak at enemy targets.
 weapons:[
 {
-    name: mount-weapon-purple
+    name: mount-purple-weapon
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 5
     x: 5
-    y: -2
+    y: -5
     reload: 5
     mirror: true
     alternate: true
