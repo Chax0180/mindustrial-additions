@@ -12,7 +12,7 @@ weapons:[
     mirror: true
     alternate: true
     shootSound: pew
-    inaccuracy: 20
+    inaccuracy: 40
     bullet: {
       homingPower: 0.05
       homingDelay: 5
