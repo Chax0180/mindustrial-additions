@@ -46,6 +46,8 @@ weapons:[
       speed: 4
       lifetime: 80
       damage: 50
+    width: 4
+    length: 8
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
@@ -54,6 +56,8 @@ weapons:[
       lightColor: 665c9f
       lightOpacity: 0.7
       frontColor: 665c9f
+       hitSound: explosion
+      despawnSound: explosion
 
           fragBullet: {
         type: SapBulletType
