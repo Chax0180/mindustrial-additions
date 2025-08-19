@@ -29,5 +29,3 @@ engines: [
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
-weapons: [
-]
