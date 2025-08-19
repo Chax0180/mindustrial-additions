@@ -77,11 +77,11 @@ weapons:[
 abilities: [
 {
 type: ShieldArcAbility
-radius: 15
+radius: 30
 angle: 365
 width: 10
 regen: 1
-max: 750
+max: 1500
 whenShooting: false
 }
 ]
