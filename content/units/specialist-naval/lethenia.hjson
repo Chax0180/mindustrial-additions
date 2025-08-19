@@ -1,6 +1,6 @@
 type: mech
-name: Parave
-description: Fires homing missiles at enemies. Cannot cross terrain.
+name: Lethenia
+description: 
 hovering: true
 hoverable: true
 shadowElevation: 0.1
@@ -30,3 +30,4 @@ itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
 weapons: [
+]
