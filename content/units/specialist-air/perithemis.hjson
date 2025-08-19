@@ -103,8 +103,6 @@ weapons:[
       speed: 6
       lifetime: 75
       damage: 10
-      pierce: true
-      pierceCap: 2
       collidesTeam: false
       lightOpacity: 0.2
       hitSound: explosion
