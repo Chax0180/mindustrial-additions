@@ -1,1 +1,63 @@
-
+type: naval
+name: Otodus
+description: Fires rapid homing bullets and lobs sapping laser charges at enemy targets. Protects itself with a circular shield.
+weapons:[
+{
+    name: mako-gun
+    rotate: true
+    rotateSpeed: 5
+    x: 8
+    y: -9
+    reload: 5
+    mirror: true
+    alternate: true
+    shootSound: pew
+    inaccuracy: 40
+    bullet: {
+      homingPower: 0.05
+      homingDelay: 5
+      speed: 5
+      lifetime: 50
+      damage: 10
+      pierce: true
+      pierceCap: 1
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      frontColor: bf92f9
+}
+}
+{
+    name: purple-missiles-large
+    rotate: true
+    rotateSpeed: 5
+    x: 8
+    y: -9
+    reload: 5
+    mirror: true
+    alternate: true
+    shootSound: pew
+    inaccuracy: 40
+    bullet: {
+      homingPower: 0.05
+      homingDelay: 5
+      speed: 5
+      lifetime: 50
+      damage: 10
+      pierce: true
+      pierceCap: 1
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      frontColor: bf92f9
+}
+}
+]
