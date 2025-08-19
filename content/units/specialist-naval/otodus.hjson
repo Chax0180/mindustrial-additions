@@ -37,7 +37,7 @@ weapons:[
     rotateSpeed: 5
     x: 0
     y: -4
-    reload: 5
+    reload: 120
     mirror: false
     shootSound: artillery
     inaccuracy: 0
@@ -49,11 +49,11 @@ weapons:[
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
-      trailColor: bf92f9
-      backColor: bf92f9
-      lightColor: bf92f9
+      trailColor: 665c9f
+      backColor: 665c9f
+      lightColor: 665c9f
       lightOpacity: 0.7
-      frontColor: bf92f9
+      frontColor: 665c9f
 
           fragBullet: {
         type: SapBulletType
