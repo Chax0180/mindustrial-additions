@@ -14,10 +14,11 @@ weapons:[
     shootSound: pew
     inaccuracy: 20
     bullet: {
-        type: FlakBulletType
+      homingPower: 0.05
+      homingDelay: 5
       speed: 5
       lifetime: 50
-      damage: 1
+      damage: 2
       pierce: true
       pierceCap: 1
       trailChance: -1
@@ -28,7 +29,6 @@ weapons:[
       lightColor: bf92f9
       lightOpacity: 0.7
       frontColor: bf92f9
-    explodeRange: 5
 }
 }
 ]
