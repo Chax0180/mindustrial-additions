@@ -57,7 +57,7 @@ weapons:[
 
           fragBullet: {
         type: SapBulletType
-      color: bf92f9
+      color: 665c9f
       width: 0.8
       length: 25
         lengthRand: 50
