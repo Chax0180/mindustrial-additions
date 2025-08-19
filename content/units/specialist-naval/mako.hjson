@@ -1,6 +1,6 @@
 type: naval
 name: Mako
-description: Rapidly fires a barrage of flak at enemy targets.
+description: Rapidly fires a barrage of bullets at enemy targets.
 weapons:[
 {
     name: mako-gun
