@@ -18,7 +18,7 @@ weapons:[
       homingDelay: 5
       speed: 5
       lifetime: 50
-      damage: 2
+      damage: 10
       pierce: true
       pierceCap: 1
       trailChance: -1
