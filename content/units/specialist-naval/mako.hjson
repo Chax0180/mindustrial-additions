@@ -1,9 +1,9 @@
 type: naval
 name: Mako
-description: Rapidly fires a barrage of homing bullets at enemy targets.
+description: Rapidly fires a barrage of flak at enemy targets.
 weapons:[
 {
-    name: mount-purple-weapon
+    name: mako-gun
     rotate: true
     rotateSpeed: 5
     x: 5
@@ -14,8 +14,7 @@ weapons:[
     shootSound: pew
     inaccuracy: 20
     bullet: {
-      homingPower: 0.1
-      homingDelay: 15
+        type: FlakBulletType
       speed: 5
       lifetime: 50
       damage: 1
@@ -29,6 +28,7 @@ weapons:[
       lightColor: bf92f9
       lightOpacity: 0.7
       frontColor: bf92f9
+    explodeRange: 5
 }
 }
 ]
