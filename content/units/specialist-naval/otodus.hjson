@@ -55,7 +55,18 @@ weapons:[
       lightOpacity: 0.7
       frontColor: bf92f9
 
-    fragBullet
+          fragBullet: {
+        type: SapBulletType
+      color: bf92f9
+      width: 0.8
+      length: 25
+        lengthRand: 50
+      damage: 20
+      collidesTeam: false
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
+      hitColor: 665c9f
+    }
 }
 }
 ]
