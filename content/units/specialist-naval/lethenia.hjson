@@ -1,7 +1,8 @@
-type: naval
+type: mech
 name: Lethenia
 description: 
-canBoost: true
+hovering: true
+hoverable: true
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
