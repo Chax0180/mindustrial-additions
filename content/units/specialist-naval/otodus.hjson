@@ -32,24 +32,20 @@ weapons:[
 }
 }
 {
-    name: purple-missiles-large
+    name: purple-missile-large
     rotate: true
     rotateSpeed: 5
-    x: 8
-    y: -9
+    x: 0
+    y: -4
     reload: 5
-    mirror: true
-    alternate: true
-    shootSound: pew
-    inaccuracy: 40
+    mirror: false
+    shootSound: artillery
+    inaccuracy: 0
     bullet: {
-      homingPower: 0.05
-      homingDelay: 5
-      speed: 5
-      lifetime: 50
-      damage: 10
-      pierce: true
-      pierceCap: 1
+    type: ArtilleryBulletType
+      speed: 4
+      lifetime: 80
+      damage: 50
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
@@ -58,6 +54,8 @@ weapons:[
       lightColor: bf92f9
       lightOpacity: 0.7
       frontColor: bf92f9
+
+    fragBullet
 }
 }
 ]
