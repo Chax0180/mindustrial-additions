@@ -1,6 +1,6 @@
 type: naval
 name: Mako
-description: Rapidly fires a barrage of bullets at enemy targets.
+description: Fires a barrage of homing bullets at enemy targets.
 weapons:[
 {
     name: mako-gun
@@ -8,7 +8,7 @@ weapons:[
     rotateSpeed: 5
     x: 5
     y: -5
-    reload: 5
+    reload: 10
     mirror: true
     alternate: true
     shootSound: pew
