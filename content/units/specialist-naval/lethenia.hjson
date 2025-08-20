@@ -1,1 +1,87 @@
+type: naval
+name: Lethenia
+description: Fires 
+weapons:[
+{
+    name: mako-gun
+    rotate: true
+    rotateSpeed: 5
+    x: 8
+    y: -9
+    reload: 5
+    mirror: true
+    alternate: true
+    shootSound: pew
+    inaccuracy: 40
+    bullet: {
+      homingPower: 0.05
+      homingDelay: 5
+      speed: 5
+      lifetime: 50
+      damage: 10
+      pierce: true
+      pierceCap: 1
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: bf92f9
+      backColor: bf92f9
+      lightColor: bf92f9
+      lightOpacity: 0.7
+      frontColor: bf92f9
+}
+}
+{
+    name: purple-missile-large
+    rotate: true
+    rotateSpeed: 5
+    x: 0
+    y: -4
+    reload: 90
+    mirror: false
+    shootSound: artillery
+    inaccuracy: 0
+    bullet: {
+    type: ArtilleryBulletType
+      speed: 4
+      lifetime: 80
+      damage: 50
+    width: 15
+    height: 20
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: 665c9f
+      backColor: 665c9f
+      lightColor: 665c9f
+      lightOpacity: 0.7
+      frontColor: 665c9f
+       hitSound: explosion
+      despawnSound: explosion
 
+          fragBullet: {
+        type: SapBulletType
+      color: 665c9f
+      width: 0.8
+      length: 25
+        lengthRand: 50
+      damage: 20
+      collidesTeam: false
+    shootEffect: shootBig
+    shootSmoke: ShootBigSmoke
+      hitColor: 665c9f
+    }
+}
+}
+]
+abilities: [
+{
+type: ShieldArcAbility
+radius: 30
+angle: 365
+width: 10
+regen: 1
+max: 1500
+whenShooting: false
+}
+]
