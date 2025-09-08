@@ -1,4 +1,4 @@
-type: liquid
+type: Liquid
 name: Liquid Nitrogen
 description: Dinitrogen. Formed by removing heat from nitrogen gas. Works as a supreme coolant fluid.
 boilPoint: 0.1
