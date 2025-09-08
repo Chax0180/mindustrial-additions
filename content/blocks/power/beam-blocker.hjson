@@ -1,4 +1,4 @@
-type: wall
+type: Wall
   name: Obfuscator
 description: Blocks power connections.
 insulated: true
