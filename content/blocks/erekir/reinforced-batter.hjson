@@ -2,6 +2,7 @@ type:battery
   name:Reinforced Battery
   description: Stores power in times of surplus energy. Outputs power in times of deficit. Has more health than a standard battery. Designed for interacting with Rectifiers.
 size: 2
+health: 1550
 category:power
 consumes: {
   powerBuffered: 10000
@@ -13,6 +14,6 @@ graphite/30
 beryllium/20
 ]
 research: beam-blocker
-fullLightColor: 84f491
-emptyLightColor: ffd6b8
+fullLightColor: 92dd7e
+emptyLightColor: d06b53
 baseExplosiveness: 2
