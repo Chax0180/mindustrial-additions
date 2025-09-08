@@ -2,7 +2,7 @@ type: PowerDiode
 name: Rectifier
 description: Moves battery power in a single direction only if the other side has less power stored.
 requirements: [
-surge-alloy/25
+surge-alloy/10
 beryllium/20
 tungsten/30
 ]
