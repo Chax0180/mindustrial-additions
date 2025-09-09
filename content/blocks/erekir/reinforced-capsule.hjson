@@ -1,0 +1,14 @@
+type: StorageBlock
+size: 1
+scaledHealth: 55
+name: Reinforced Capsule
+description: Stores a small amount of items. Fit for short-distance transport and ammo storage.
+itemCapacity: 40
+category: effect
+research: container
+requirements: [
+  tungsten/10
+  graphite/15
+]
+squareSprite: false
+researchCostMultiplier: 0.5
