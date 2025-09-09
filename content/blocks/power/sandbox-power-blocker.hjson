@@ -2,5 +2,10 @@ type: Wall
   name: Schemetic Edge Wall
 description: Blocks power connections. Serves as a border to schematics in sandbox schematic worlds.
 insulated: true
-health: 1000000
+requirements: [
+plastaniium/6
+]
+autoTile: true
+size: 1
+health: 400
 BuildVisibility: sandboxOnly
