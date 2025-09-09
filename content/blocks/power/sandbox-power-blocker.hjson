@@ -3,7 +3,7 @@ type: Wall
 description: Blocks power connections. Serves as a border to schematics in sandbox schematic worlds.
 insulated: true
 requirements: [
-plastaniuum/6
+plastanium/6
 ]
 autoTile: true
 size: 1
