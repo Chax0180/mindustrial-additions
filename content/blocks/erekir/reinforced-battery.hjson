@@ -13,7 +13,7 @@ silicon/80
 graphite/30
 beryllium/20
 ]
-research: beam-blocker
+research: obfuscator
 fullLightColor: 92dd7e
 emptyLightColor: d06b53
 baseExplosiveness: 2
