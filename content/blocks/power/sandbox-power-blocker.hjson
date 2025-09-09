@@ -1,11 +1,12 @@
-type: Wall
+type: StaticWall
   name: Schemetic Edge Wall
 description: Blocks power connections. Serves as a border to schematics in sandbox schematic worlds.
 insulated: true
 requirements: [
-plastanium/6
+plastanium/1
 ]
 autoTile: true
+breakable: true
 size: 1
 health: 400
 BuildVisibility: sandboxOnly
