@@ -1,4 +1,4 @@
-type: Wall
+type: Block
   name: Schemetic Edge Wall
 description: Blocks power connections. Serves as a border to schematics in sandbox schematic worlds.
 insulated: true
@@ -6,6 +6,8 @@ requirements: [
 plastanium/1
 ]
 size: 1
-health: 400
+teamPassable: true
+breakable: true
+health: 50
 category: power
 BuildVisibility: sandboxOnly
