@@ -1,0 +1,16 @@
+type: PayloadLoader
+name: Small Payload Loader
+description: Loads liquids and items into blocks.
+size: 1
+health: 285
+requirements: [
+  tungsten/20
+  silicon/30
+  graphite/20
+]
+category: units
+research: payload-loader
+consumes: {
+  power: 30
+}
+maxPayloadSize: 1
