@@ -1,0 +1,18 @@
+type: PayloadUnloader
+name: Small Payload Unloader
+description: Unloads liquids and items into blocks.
+size: 1
+health: 285
+requirements: [
+  tungsten/20
+  silicon/30
+  graphite/20
+]
+category: units
+research: small-payload-loader
+
+consumes: {
+  power: 0.2
+}
+
+maxPayloadSize: 4
