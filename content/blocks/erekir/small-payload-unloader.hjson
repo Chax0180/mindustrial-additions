@@ -10,9 +10,7 @@ requirements: [
 ]
 category: units
 research: small-payload-loader
-
 consumes: {
   power: 0.2
 }
-
-maxPayloadSize: 4
+maxPayloadSize: 1
