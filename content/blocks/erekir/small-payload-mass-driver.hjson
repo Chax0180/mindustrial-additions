@@ -12,7 +12,7 @@ silicon/30
 tungsten/10
 beryllium/5
 ]
-reload: 120
+reload: 40
 chargeTime: 30
 range: 200
 maxPayloadSize: 1
