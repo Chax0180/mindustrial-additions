@@ -14,7 +14,7 @@ beryllium/5
 ]
 reload: 120
 chargeTime: 30
-range: 100
+range: 200
 maxPayloadSize: 1
 size: 2
 researchCostMultiplier: 0.25
