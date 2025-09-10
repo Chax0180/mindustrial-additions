@@ -1,0 +1,20 @@
+type: PayloadMassDriver
+name: Small Payload Mass Driver
+description: Short-range payload transport structure. Shoots recieved payloads to linked payload mass drivers.
+consumes: {
+  power: 11
+}
+category: units
+research: payload-mass-driver
+requirements: [
+graphite/10
+silicon/30
+tungsten/10
+beryllium/5
+]
+reload: 120
+chargeTime: 30
+range: 100
+maxPayloadSize: 1
+size: 2
+researchCostMultiplier: 0.25
