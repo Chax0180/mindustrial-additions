@@ -11,6 +11,6 @@ requirements: [
 category: units
 research: payload-loader
 consumes: {
-  power: 30
+  power: 0.3
 }
 maxPayloadSize: 1
