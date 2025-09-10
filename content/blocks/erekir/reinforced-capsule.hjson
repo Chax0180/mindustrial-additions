@@ -10,5 +10,6 @@ requirements: [
   tungsten/10
   graphite/15
 ]
+hasTeamRegion: true
 squareSprite: false
 researchCostMultiplier: 0.5
