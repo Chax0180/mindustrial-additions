@@ -17,6 +17,7 @@ chargeTime: 30
 range: 200
 shake: 1
 grabWidth: 6
+grabHeight: 0
 maxPayloadSize: 1
 size: 2
 researchCostMultiplier: 0.25
