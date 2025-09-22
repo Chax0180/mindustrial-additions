@@ -1,0 +1,92 @@
+type: MissileUnitType
+name: Indurate Missile
+speed: 4.6
+maxRange: 6
+lifetime: 330    # 60 * 5.5
+engineLayer: effect
+engineSize: 3.1
+engineOffset: 10
+rotateSpeed: 0.25
+trailLength: 18
+missileAccelTime: 50
+lowAltitude: true
+loopSound: missileTrail
+loopSoundVolume: 0.6
+deathSound: largeExplosion
+targetAir: true
+targetGround: false
+fogRadius: 6
+health: 240
+outlineColor: 4d4d4d
+
+weapons: [
+  {
+    shootCone: 360
+    mirror: false
+    reload: 1
+    deathExplosionEffect: massiveExplosion
+    shootOnDeath: true
+    shake: 10
+    bullet: {
+      type: ExplosionBulletType
+      damage: 1000
+      splashDamage: 65
+      hitColor: redLight
+      shootEffect: [
+        massiveExplosion
+        scatheExplosion
+        scatheLight
+        {
+          type: WaveEffect
+          lifetime: 10
+          strokeFrom: 4
+          sizeTo: 130
+        }
+      ]
+      collidesAir: true
+        collidesGround: false
+      buildingDamageMultiplier: 0.1
+      ammoMultiplier: 1
+      fragLifeMin: 0.1
+      fragBullets: 7
+      fragBullet: {
+        type: ArtilleryBulletType
+        speed: 3.4
+        damage: 32
+        drag: 0.02
+        hitEffect: massiveExplosion
+        despawnEffect: scatheSlash
+        knockback: 0.8
+        lifetime: 23
+        width: 18
+        height: 18
+        collidesTiles: false
+        splashDamageRadius: 40
+        splashDamage: 100
+        backColor: redLight
+        trailColor: redLight
+        hitColor: redLight
+        frontColor: ffffff
+        smokeEffect: shootBigSmoke2
+        despawnShake: 7
+        lightRadius: 30
+        lightColor: redLight
+        lightOpacity: 0.5
+        trailLength: 20
+        trailWidth: 3.5
+        trailEffect: none
+      }
+    }
+  }
+]
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailSmoke
+    rotation: 180
+    y: -9
+    color: [99,99,99,102]
+    interval: 7
+  }
+]
