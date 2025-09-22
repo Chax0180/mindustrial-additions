@@ -19,13 +19,13 @@ minWarmup: 0.94
 newTargetInterval: 40
 unitSort: strongest
 shootWarmupSpeed: 0.03
-targetAir: false
-targetUnderBlocks: false
+targetAir: true
+targetGround: false
 shake: 6
 ammoPerShot: 15
 maxAmmo: 45
 shootY: -1
-outlineColor: darkOutline
+outlineColor: 4d4d4d
 envEnabled: [space]
 reload: 600
 range: 1350
@@ -104,6 +104,6 @@ ammo: {
     smokeEffect: shootSmokeMissileColor
     hitColor: redLight
     ammoMultiplier: 1
-    spawnUnit: scathe-missile
+    spawnUnit: indurate-missile
   }
 }
