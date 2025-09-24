@@ -8,6 +8,7 @@ requirements: [
   tungsten/500
   oxide/100
   carbide/200
+  surge-alloy/100
 ]
 category: turret
 predictTarget: false
@@ -26,7 +27,6 @@ ammoPerShot: 15
 maxAmmo: 45
 shootY: -1
 outlineColor: 4d4d4d
-envEnabled: [space]
 reload: 600
 range: 1350
 shootCone: 1
@@ -39,7 +39,6 @@ consumes: {
 }
 
 drawer: {
-  type: DrawTurret
   basePrefix: reinforced-
   parts: [
     {
