@@ -2,7 +2,7 @@ type: MissileUnitType
 name: Indurate Missile
 speed: 4.6
 maxRange: 6
-lifetime: 330    # 60 * 5.5
+lifetime: 330
 engineLayer: effect
 engineSize: 3.1
 engineOffset: 10
@@ -63,14 +63,14 @@ weapons: [
         collidesTiles: false
         splashDamageRadius: 40
         splashDamage: 100
-        backColor: redLight
-        trailColor: redLight
-        hitColor: redLight
+        backColor: 8ca9e8
+        trailColor: 8ca9e8
+        hitColor: 8ca9e8
         frontColor: ffffff
         smokeEffect: shootBigSmoke2
         despawnShake: 7
         lightRadius: 30
-        lightColor: redLight
+        lightColor: 8ca9e8
         lightOpacity: 0.5
         trailLength: 20
         trailWidth: 3.5
