@@ -46,7 +46,7 @@ drawer: {
       suffix: -blade
       progress: warmup
       heatProgress: warmup
-      heatColor: red
+      heatColor: 6569c9
       moveRot: -22
       moveY: -5
       mirror: true
@@ -56,7 +56,7 @@ drawer: {
           suffix: -side
           progress: warmup
           heatProgress: recoil
-          heatColor: red
+          heatColor: 6569c9
           mirror: true
           under: false
           moveY: -4
@@ -81,8 +81,8 @@ drawer: {
       suffix: -missile
       progress: reload
       colorTo: [1,1,1,0]
-      color: white
-      mixColorTo: accent
+      color: ffffff
+      mixColorTo: 6569c9
       mixColor: [1,1,1,0]
       outline: false
       under: true
@@ -101,7 +101,7 @@ ammo: {
     speed: 0
     shootEffect: shootBig
     smokeEffect: shootSmokeMissileColor
-    hitColor: redLight
+    hitColor: 6569c9
     ammoMultiplier: 1
     spawnUnit: indurate-missile
   }
