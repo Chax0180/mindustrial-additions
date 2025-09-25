@@ -44,7 +44,7 @@ weapons: [
         }
       ]
       collidesAir: true
-        collidesGround: false
+      collidesGround: false
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
       fragLifeMin: 0.1
