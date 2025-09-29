@@ -14,7 +14,7 @@ research: {
   ]
 }
 requirements: [
-thoruim/500
+thorium/500
 silicon/1000
 oxide/750
 carbide/100
