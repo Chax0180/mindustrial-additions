@@ -1,0 +1,14 @@
+type: tank
+name: Triumph
+description: Fires massive artillery shells at enemy targets. Less affected from harmful terrain.
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1.2
+rotateSpeed: 6
+health: 280
+armor: 1
+itemCapacity: 0
+hitSize: 13
