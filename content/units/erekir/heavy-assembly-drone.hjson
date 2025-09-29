@@ -14,6 +14,7 @@ isEnemy: false
 hidden: true
 useUnitCap: false
 logicControllable: false
+outlineColor: 2d2f39
 playerControllable: false
 allowedInPayloads: false
 createWreck: false
