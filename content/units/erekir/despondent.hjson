@@ -1,0 +1,12 @@
+type: tank
+name: Despondent
+description: Fires powerful missiles at enemy ground targets over large distances. Less affected from harmful terrain.
+hitSize: 30
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+speed: 1.2
+rotateSpeed: 3
+health: 280
+armor: 28
+itemCapacity: 0
