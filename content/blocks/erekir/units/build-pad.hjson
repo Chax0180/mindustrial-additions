@@ -1,4 +1,4 @@
-type:door
+type: Door
   name: Build Pad
 description: A large, semi-decorative platform for unit assemblers. Can be activated to enable or disable the production of the unit in the build zone. Covers the radius of Tier 4 units.
   health: 4000
