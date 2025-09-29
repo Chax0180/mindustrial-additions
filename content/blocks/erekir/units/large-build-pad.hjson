@@ -1,0 +1,14 @@
+type:door
+  name: Large Build Pad
+description: A massive, semi-decorative platform for unit assemblers. Can be activated to enable or disable the production of the unit in the build zone. Covers the radius of Tier 5 units.
+  health: 4000
+  requirements: [
+tungsten/300
+thorium/72
+carbide/15
+beryllium/96
+silicon/96
+  ]
+category:payload
+size:7
+research: basic-assembler-module
