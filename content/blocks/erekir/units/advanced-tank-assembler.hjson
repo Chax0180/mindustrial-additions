@@ -1,5 +1,5 @@
 type: UnitAssembler
-name:Advanced Tanks Assembler
+name:Advanced Tank Assembler
 description: Assembles massive tanks out of inputted blocks and units. Output tier may be increased by adding modules.
 size: 7
 category: units
@@ -12,6 +12,13 @@ research: {
       preset: origin
     }
   ]
+}
+consumes: {
+  power: 20
+  liquid: cyanogen/0.4
+  items: {
+oxide/0.05
+}
 }
 requirements: [
 thorium/500
@@ -45,8 +52,5 @@ plans: [
   }
 ]
 squareSprite: false
-consumes: {
-  power: 20
-}
 areaSize: 13
 researchCostMultiplier: 1.5
