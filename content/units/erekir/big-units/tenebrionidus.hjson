@@ -1,0 +1,9 @@
+type: tank
+name: Despondent
+description: Fires corrosive shotgun blasts enemy targets, and attacks ground targets with large artillery shells.
+hitSize: 30
+speed: 1.2
+rotateSpeed: 3
+health: 280
+armor: 28
+itemCapacity: 0
