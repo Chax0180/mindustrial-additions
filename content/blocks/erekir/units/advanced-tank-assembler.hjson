@@ -16,7 +16,6 @@ research: {
 consumes: {
   power: 20
   liquid: cyanogen/0.4
-  item: oxide/0.05
 }
 requirements: [
 thorium/500
