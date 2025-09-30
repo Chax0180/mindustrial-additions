@@ -1,9 +1,0 @@
-type: flying
-name: Diminish
-description: Fires powerful, fragmenting suppression missiles at enemy targets. Projects a dense shield that absorbs bullets. Suppresses enemy structure repair blocks.
-hitSize: 30
-speed: 1.2
-rotateSpeed: 3
-health: 280
-armor: 28
-itemCapacity: 0

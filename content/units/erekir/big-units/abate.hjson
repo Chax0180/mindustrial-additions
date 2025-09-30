@@ -1,9 +1,0 @@
-type: flying
-name: Abate
-description: Fires a barrage of piercing, fragmenting bullets at enemy targets. Projects a shield that absorbs bullets. Suppresses enemy structure repair blocks at along range.
-hitSize: 30
-speed: 1.2
-rotateSpeed: 3
-health: 280
-armor: 28
-itemCapacity: 0

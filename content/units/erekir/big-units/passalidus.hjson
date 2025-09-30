@@ -1,9 +1,0 @@
-type: legs
-name: Passalidus
-description: Fires searing jets of plasma at enemy targets, and a barrage of flak at air targets.
-hitSize: 30
-speed: 1.2
-rotateSpeed: 3
-health: 280
-armor: 28
-itemCapacity: 0
