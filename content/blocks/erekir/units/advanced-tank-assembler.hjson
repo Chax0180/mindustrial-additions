@@ -45,7 +45,7 @@ plans: [
     unit: despondent
     requirements: [
       disperse/1
-      scathe/1
+      afflict/1
       shielded-wall/16
       carbide-wall-large/4
     ]
