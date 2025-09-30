@@ -1,0 +1,57 @@
+type: UnitAssembler
+name:Advanced Mech Assembler
+description: Assembles massive mechs out of inputted blocks and units. Output tier may be increased by adding modules.
+size: 7
+health: 5488
+category: units
+droneType: heavy-assembly-drone
+research: {
+  parent: basic-assembler-module
+  objectives: [
+    {
+      type: OnSector
+      preset: origin
+    }
+  ]
+}
+consumes: {
+  power: 20
+  liquids: [
+cyanogen/0.3
+water/0.25
+]
+}
+requirements: [
+thorium/500
+silicon/1000
+oxide/750
+carbide/100
+phase-fabric/150
+surge-alloy/250
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: passalidus
+    requirements: [
+      sublimate/2
+      disperse/1
+      shielded-wall/8
+    ]
+    time: 7200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: tenebrionidus
+    requirements: [
+      diffuse/4
+      titan/1
+      shielded-wall/16
+      carbide-wall-large/4
+    ]
+    time: 14400
+  }
+]
+squareSprite: false
+areaSize: 13
+researchCostMultiplier: 1.5
