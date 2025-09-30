@@ -1,0 +1,9 @@
+type: flying
+name: Diminish
+description: Fires powerful missiles at enemy targets. Projects a shield around itself.
+hitSize: 30
+speed: 1.2
+rotateSpeed: 3
+health: 280
+armor: 28
+itemCapacity: 0
