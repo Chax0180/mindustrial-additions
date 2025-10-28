@@ -62,6 +62,7 @@ drawer: {
     {
       type:DrawPistons
       suffix: -piston
+      sinMag: 6.75
       sinScl: 10
       lenOffset: -1
     }
