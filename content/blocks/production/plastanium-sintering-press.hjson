@@ -52,7 +52,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -middle
+      suffix: -middle2
     }
     {
       type: DrawLiquidTile
