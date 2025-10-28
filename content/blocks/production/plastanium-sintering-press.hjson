@@ -48,7 +48,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: cryofluid
-      padding: 3
+      padding: 1
     }
     {
       type: DrawRegion
@@ -57,7 +57,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: oil
-      padding: 10
+      padding: 8.5
     }
     {
       type:DrawPistons
