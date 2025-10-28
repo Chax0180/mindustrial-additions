@@ -1,6 +1,14 @@
-name: Mindustrial Additions
-description: This mod aims to build on vanilla, and add various things throughout early and late game, such as specialist air and naval units, higher tiered factories, and much more.
+name: mdstry-plus
+description:'''
+This mod aims to build on vanilla, and add various things throughout early and late game, such as specialist air and naval units, higher tiered factories, and much more.
+'''
 author: Chax0180
+minGameVersion: 146
+version: I'm not going to remember to update this.
+displayName: "Mindustrial Additions"
+subtitle: "Also try Asthosus!"
+repo: "Chax0180/mindustrial-additions"
+
 minGameVersion: 136
 version: 1.0
 hidden: true
