@@ -47,12 +47,17 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: oil
+      drawLiquid: cryofluid
       padding: 3
     }
     {
       type: DrawRegion
       suffix: -middle
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      padding: 10
     }
     {
       type:DrawPistons
