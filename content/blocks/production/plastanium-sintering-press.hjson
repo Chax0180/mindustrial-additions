@@ -22,7 +22,7 @@ requirements: [
 consumes: {
   power: 4
   items: [
-    titanium/6
+    titanium/8
   ]
   liquids: [
   cryofluid/0.2
@@ -31,7 +31,7 @@ consumes: {
   }
 outputItem: plastanium/6
 
-craftTime: 60
+craftTime: 90
 craftEffect: formsmoke
 updateEffect: fuelburn
 
