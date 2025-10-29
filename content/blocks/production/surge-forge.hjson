@@ -22,7 +22,7 @@ requirements: [
 ]
 
 consumes: {
-  power: 4.2
+  power: 10
   items: [
     titanium/6
     copper/6
