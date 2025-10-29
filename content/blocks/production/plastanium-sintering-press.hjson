@@ -2,7 +2,7 @@ type: GenericCrafter
 
 name: Plastanium Sintering Press
 
-description: Presses oil saturated with a titanium-silicon blend into plastanium. Requires cryofluid as a coolant.
+description: Presses oil and ground-up titanium into plastanium. Requires cryofluid as a coolant.
 
 size: 3
 
@@ -22,8 +22,7 @@ requirements: [
 consumes: {
   power: 4
   items: [
-    titanium/4
-    silicon/2
+    titanium/6
   ]
   liquids: [
   cryofluid/0.2
