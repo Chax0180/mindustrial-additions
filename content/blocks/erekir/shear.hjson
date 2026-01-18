@@ -1,0 +1,130 @@
+type: ItemTurret
+name: Shear
+description: Fires heavy, armor-piercing bullets at enemy targets. Damage increases by 25% after piercing through a target.
+size: 4
+maxAmmo: 10
+shootSound: shearShoot
+reload: 180
+cooldownTime: 180
+rotateSpeed: 1.5
+requirements: [
+thorium/100
+graphite/200
+silicon/400
+tungsten/250
+oxide/75
+]
+category: turret
+outlineColor: 2d2f39
+shoot: {
+firstShotDelay: 90
+}
+consumes: [
+power/2
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.25
+}
+range: 395
+
+ammoTypes: {
+    spent-uranium: {
+      type: BasicBulletType
+      speed: 5
+      damage: 705
+      pierce: true
+      pierceCap: 4
+      pierceArmor: true
+      pierceDamageFactor: 1.25
+      
+      lifetime: 80
+      width: 11
+      height: 17
+      frontColor: ffffff
+      backColor: 519151
+    buildingDamageMultiplier: 0.3
+          sprite: missile-large
+  smokeEffect: {
+    type: ParticleEffect
+    particles: 10
+    length: 30
+    lifetime: 180
+    interp: circleOut
+    cone: 15
+    colorFrom: 23e829
+    colorTo: 1e6b1e
+    sizeFrom: 6
+    sizeTo: 0
+  }
+trailEffect: {
+    type: ParticleEffect
+    particles: 6
+    length: 15
+    lifetime: 120
+    interp: circleOut
+    cone: 180
+    colorFrom: 23e829
+    colorTo: 1e6b1e
+    sizeFrom: 6
+    sizeTo: 0
+  }
+trailInterval: 3
+hitEffect:{
+    type: ParticleEffect
+    particles: 20
+    length: 60
+    lifetime: 60
+    interp: circleOut
+    cone: 8
+    colorFrom: 23e829
+    colorTo: 1e6b1e
+    sizeFrom: 6
+    sizeTo: 0
+  }
+despawnEffect:{
+    type: ParticleEffect
+    particles: 20
+    length: 60
+    lifetime: 60
+    interp: circleOut
+    cone: 8
+    colorFrom: 23e829
+    colorTo: 1e6b1e
+    sizeFrom: 6
+    sizeTo: 0
+  }
+
+    }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: reinforced-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      under: false
+      mirror: false
+      progress: recoil
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -3
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      mirror: true
+      under: false
+      progress: warmup
+        moveY: -1
+        moveX: 1
+    }
+  ]
+}
