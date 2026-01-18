@@ -31,7 +31,7 @@ coolant: {
 range: 395
 
 ammoTypes: {
-    spent-uranium: {
+    thorium: {
       type: BasicBulletType
       speed: 5
       damage: 705
