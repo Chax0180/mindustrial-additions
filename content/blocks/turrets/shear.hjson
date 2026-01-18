@@ -120,11 +120,11 @@ despawnEffect:{
           sprite: missile-large
   smokeEffect: {
     type: ParticleEffect
-    particles: 10
-    length: 30
+    particles: 20
+    length: 40
     lifetime: 180
     interp: circleOut
-    cone: 15
+    cone: 25
     colorFrom: c9a5c8
     colorTo: 50477b
     sizeFrom: 6
@@ -132,8 +132,8 @@ despawnEffect:{
   }
 trailEffect: {
     type: ParticleEffect
-    particles: 6
-    length: 15
+    particles: 8
+    length: 25
     lifetime: 120
     interp: circleOut
     cone: 180
@@ -145,11 +145,11 @@ trailEffect: {
 trailInterval: 3
 hitEffect:{
     type: ParticleEffect
-    particles: 20
-    length: 60
+    particles: 30
+    length: 80
     lifetime: 60
     interp: circleOut
-    cone: 8
+    cone: 10
     colorFrom: c9a5c8
     colorTo: 50477b
     sizeFrom: 6
@@ -157,11 +157,11 @@ hitEffect:{
   }
 despawnEffect:{
     type: ParticleEffect
-    particles: 20
-    length: 60
+    particles: 30
+    length: 80
     lifetime: 60
     interp: circleOut
-    cone: 8
+    cone: 10
     colorFrom: c9a5c8
     colorTo: 50477b
     sizeFrom: 6
