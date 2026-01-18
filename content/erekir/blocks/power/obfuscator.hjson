@@ -1,6 +1,6 @@
 type: Wall
   name: Obfuscator
-description: Blocks power connections.
+description: Blocks automatic beam power connections.
 insulated: true
   health: 150
   requirements: [
