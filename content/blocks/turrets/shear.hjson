@@ -39,8 +39,8 @@ ammoTypes: {
       pierceCap: 4
       pierceArmor: true
       pierceDamageFactor: 1.25
-      despawnSound: explosionDull
-      hitSound: explosionDull
+      despawnSound: explosionArtillery
+      hitSound: explosionArtillery
       
       lifetime: 80
       width: 11
