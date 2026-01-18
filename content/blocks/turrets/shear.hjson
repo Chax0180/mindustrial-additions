@@ -3,7 +3,7 @@ name: Shear
 description: Fires heavy, armor-piercing bullets at enemy targets. Damage increases by 25% after piercing through a target.
 size: 4
 maxAmmo: 10
-shootSound: shearShoot
+shootSound: shootSpectre
 reload: 180
 cooldownTime: 180
 rotateSpeed: 1.5
@@ -18,7 +18,6 @@ category: turret
 outlineColor: 2d2f39
 shoot: {
 firstShotDelay: 90
-research: titan
 }
 consumes: [
 power/2
@@ -32,23 +31,20 @@ coolant: {
 range: 395
 
 ammoTypes: {
-    thorium: {
+    spent-uranium: {
       type: BasicBulletType
       speed: 5
       damage: 705
       pierce: true
-      armorMultiplier: 0.2
-      shieldDamageMultiplier: 1.2
-      buildingDamageMultiplier: 0.2
-      accel:0.1
-    
+      pierceCap: 4
+      pierceArmor: true
       pierceDamageFactor: 1.25
       
       lifetime: 80
       width: 11
       height: 17
       frontColor: ffffff
-      backColor: 519151
+      backColor: ffcbdd
     buildingDamageMultiplier: 0.3
           sprite: missile-large
   smokeEffect: {
@@ -58,8 +54,8 @@ ammoTypes: {
     lifetime: 180
     interp: circleOut
     cone: 15
-    colorFrom: 23e829
-    colorTo: 1e6b1e
+    colorFrom: ffcbdd
+    colorTo: bb68c3
     sizeFrom: 6
     sizeTo: 0
   }
@@ -70,8 +66,8 @@ trailEffect: {
     lifetime: 120
     interp: circleOut
     cone: 180
-    colorFrom: 23e829
-    colorTo: 1e6b1e
+    colorFrom: ffcbdd
+    colorTo: bb68c3
     sizeFrom: 6
     sizeTo: 0
   }
@@ -83,8 +79,8 @@ hitEffect:{
     lifetime: 60
     interp: circleOut
     cone: 8
-    colorFrom: 23e829
-    colorTo: 1e6b1e
+    colorFrom: ffcbdd
+    colorTo: bb68c3
     sizeFrom: 6
     sizeTo: 0
   }
@@ -95,8 +91,8 @@ despawnEffect:{
     lifetime: 60
     interp: circleOut
     cone: 8
-    colorFrom: 23e829
-    colorTo: 1e6b1e
+    colorFrom: ffcbdd
+    colorTo: bb68c3
     sizeFrom: 6
     sizeTo: 0
   }
