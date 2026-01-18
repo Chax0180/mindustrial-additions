@@ -4,8 +4,8 @@ description: Blocks power connections.
 insulated: true
   health: 150
   requirements: [
-silicon/5
-beryllium/10
+silicon/10
+beryllium/5
 tungsten/5
   ]
 category:power
