@@ -17,3 +17,4 @@ research: obfuscator
 fullLightColor: 92dd7e
 emptyLightColor: d06b53
 baseExplosiveness: 2
+details: Somewhat obsolete. Rectifiers block power connections on their own.
