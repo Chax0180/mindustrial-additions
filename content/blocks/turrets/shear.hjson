@@ -39,6 +39,7 @@ ammoTypes: {
       pierceCap: 4
       pierceArmor: true
       pierceDamageFactor: 1.25
+      despawnSound: blockExplode1
       
       lifetime: 80
       width: 11
