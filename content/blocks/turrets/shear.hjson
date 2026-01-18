@@ -100,6 +100,75 @@ despawnEffect:{
   }
 
     }
+    carbide: {
+      type: BasicBulletType
+      speed: 7
+      damage: 1520
+      pierce: true
+      pierceCap: 6
+      pierceArmor: true
+      pierceDamageFactor: 1.3
+      despawnSound: explosionArtillery
+      hitSound: explosionArtillery
+      
+      lifetime: 90
+      width: 11
+      height: 17
+      frontColor: ffffff
+      backColor: c9a5c8
+    buildingDamageMultiplier: 0.3
+          sprite: missile-large
+  smokeEffect: {
+    type: ParticleEffect
+    particles: 10
+    length: 30
+    lifetime: 180
+    interp: circleOut
+    cone: 15
+    colorFrom: c9a5c8
+    colorTo: 50477b
+    sizeFrom: 6
+    sizeTo: 0
+  }
+trailEffect: {
+    type: ParticleEffect
+    particles: 6
+    length: 15
+    lifetime: 120
+    interp: circleOut
+    cone: 180
+    colorFrom: ffcbdd
+    colorTo: 50477b
+    sizeFrom: 6
+    sizeTo: 0
+  }
+trailInterval: 3
+hitEffect:{
+    type: ParticleEffect
+    particles: 20
+    length: 60
+    lifetime: 60
+    interp: circleOut
+    cone: 8
+    colorFrom: c9a5c8
+    colorTo: 50477b
+    sizeFrom: 6
+    sizeTo: 0
+  }
+despawnEffect:{
+    type: ParticleEffect
+    particles: 20
+    length: 60
+    lifetime: 60
+    interp: circleOut
+    cone: 8
+    colorFrom: c9a5c8
+    colorTo: 50477b
+    sizeFrom: 6
+    sizeTo: 0
+  }
+
+    }
 }
 drawer: {
   type: DrawTurret
