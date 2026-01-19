@@ -1,4 +1,4 @@
-type: Turret
+type: ContinuousTurret
 name: Climax
 description: Fires a powerful tractor beam at enemy air targets, pulling them in and damaging them.
 size: 4
