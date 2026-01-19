@@ -5,7 +5,7 @@ size: 4
 health: 2200
 maxAmmo: 24
 shootSound: shootMissilePlasma
-reload: 1
+reload: 5
 rotateSpeed: 3
 requirements: [
 copper/800
@@ -40,7 +40,7 @@ ammoTypes: {
       collidesTiles: false
       collidesGround: false
       trailLength: 10
-      homingPower: 0.1
+      homingPower: 0.025
       inaccuracy: 5
       
       
