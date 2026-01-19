@@ -16,10 +16,10 @@ drawer: {
 }
 shootType: {
   type: PointLaserBulletType
-  damage: 20
+  damage: 36
   sprite: "drill-laser-boost"
   damageInterval: 1
-  knockback: -2
+  knockback: -5
 }
 range: 400
 shootSound: blockExplodeElectric
