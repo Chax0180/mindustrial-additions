@@ -25,6 +25,7 @@ coolant: {
 shoot: {
 firstShotDelay: 30
 shots: 5
+shotDelay: 5
 }
 targetsGround: false
 targetsBlocks: false
