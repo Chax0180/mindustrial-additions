@@ -65,6 +65,14 @@ drawer: {
   parts: [
     {
       type: RegionPart
+      suffix: -blade
+      mirror: true
+      under: false
+      progress: warmup
+        moveX: 3
+    }
+{
+      type: RegionPart
       suffix: -barrel
       under: false
       mirror: false
@@ -76,15 +84,6 @@ drawer: {
           y: -3
         }
       ]
-    }
-    {
-      type: RegionPart
-      suffix: -blade
-      mirror: true
-      under: false
-      progress: warmup
-        moveY: -1
-        moveX: 1
     }
   ]
 }
