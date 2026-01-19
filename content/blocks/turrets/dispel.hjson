@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Dispel
-description: Fires powerful homing missiles at enemy air targets.
+description: Fires powerful homing kinetic charges at enemy air targets.
 size: 4
 health: 2200
 maxAmmo: 10
@@ -39,6 +39,10 @@ ammoTypes: {
       targetBlocks: false
       collidesTiles: false
       collidesGround: false
+      sticky: true
+      stickyExtraLifetime: 30
+      trailLength: 10
+      homingPower: 0.3
       
       
       lifetime: 80
