@@ -7,7 +7,7 @@ maxAmmo: 15
 ammoPerShot: 3
 consumeAmmoOnce: false
 shootSound: shootMissilePlasma
-reload: 5
+reload: 30
 rotateSpeed: 3
 requirements: [
 copper/800
@@ -25,14 +25,13 @@ coolant: {
   amount: 0.4
 }
 shoot: {
-firstShotDelay: 30
 shots: 5
 shotDelay: 5
 }
 targetsGround: false
 targetsBlocks: false
 inaccuracy: 25
-range: 395
+range: 440
 
 ammoTypes: {
     silicon: {
