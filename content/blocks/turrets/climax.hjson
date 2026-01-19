@@ -17,13 +17,12 @@ drawer: {
 shootType: {
   type: PointLaserBulletType
   damage: 20
-  color: 8aa3f4
+  color: 0022ff
   damageInterval: 1
   knockback: -2
 }
 range: 400
 shootSound: blockExplodeElectric
-sprite: "parallax-laser"
 loopSound: beamPlasma
 rotateSpeed: 3
 shootY: 4
