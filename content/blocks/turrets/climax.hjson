@@ -24,7 +24,8 @@ shootType: {
 range: 400
 shootSound: blockExplodeElectric
 loopSound: beamPlasma
-rotateSpeed: 3
+rotateSpeed: 10
+playerControllable: false
 shootY: 4
 consumes: {
   power: 36
