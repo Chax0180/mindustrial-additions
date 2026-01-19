@@ -116,6 +116,7 @@ despawnEffect:{
       hitSound: explosionArtillery
       removeAfterPierce: false
       reloadMultiplier: 0.6
+      rangeChange: 1
 
       lifetime: 90
       width: 11
