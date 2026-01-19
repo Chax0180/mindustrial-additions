@@ -43,6 +43,8 @@ ammoTypes: {
       stickyExtraLifetime: 30
       trailLength: 10
       homingPower: 0.3
+      inaccuracy: 20
+      followAimSpeed: 0.3
       
       
       lifetime: 80
