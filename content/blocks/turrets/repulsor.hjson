@@ -1,6 +1,6 @@
 type: ContinuousTurret
 name: Repulsor
-description: Fires a powerful beam at enemy targets, pushing them away.
+description: A modified Climax. Pushes enemy tarkets away, but deals no damage.
 size: 4
 category: turret
 research: climax
@@ -20,7 +20,7 @@ shootType: {
   damage: 0
   sprite: "drill-laser"
   damageInterval: 5
-  knockback: 6
+  knockback: 10
   targetBlocks: false
   collidesTiles: false
 }
