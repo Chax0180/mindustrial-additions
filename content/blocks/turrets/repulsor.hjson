@@ -1,0 +1,38 @@
+type: ContinuousTurret
+name: Repulsor
+description: Fires a powerful beam at enemy targets, pushing them away.
+size: 4
+category: turret
+research: climax
+targetsBlocks: false
+requirements: [
+  plastanium/600
+  lead/300
+  silicon/1500
+  thorium/800
+  surge-alloy/400
+]
+drawer: {
+  type: DrawTurret
+}
+shootType: {
+  type: PointLaserBulletType
+  damage: 0
+  sprite: "drill-laser"
+  damageInterval: 5
+  knockback: 6
+  targetBlocks: false
+  collidesTiles: false
+}
+range: 400
+shootSound: blockExplodeElectric
+loopSound: beamPlasmaSmall
+rotateSpeed: 10
+playerControllable: false
+shootY: 4
+consumes: {
+  power: 36
+liquids:[
+cryofluid/1
+]
+}
