@@ -33,7 +33,13 @@ ammoTypes: {
       speed: 7
       damage: 110
       despawnSound: explosionCleroi
-      hitSound: exxplosionCleroi
+      hitSound: explosionCleroi
+      knockback: 0.15
+      impact: true
+      targetBlocks: false
+      collidesTiles: false
+      collidesGround: false
+      
       
       lifetime: 80
       width: 11
@@ -45,7 +51,6 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: reinforced-
   parts: [
     {
       type: RegionPart
