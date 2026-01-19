@@ -23,6 +23,7 @@ shootType: {
 }
 range: 400
 shootSound: blockExplodeElectric
+sprite: "parallax-laser"
 loopSound: beamPlasma
 rotateSpeed: 3
 shootY: 4
