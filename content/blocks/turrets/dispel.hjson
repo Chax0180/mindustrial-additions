@@ -5,7 +5,7 @@ size: 4
 health: 2200
 maxAmmo: 10
 shootSound: shootMissilePlasma
-reload: 10
+reload: 5
 rotateSpeed: 3
 requirements: [
 copper/800
@@ -25,7 +25,10 @@ coolant: {
   allowLiquid: true
   amount: 0.4
 }
+targetsGround: false
+targetsBlocks: false
 range: 395
+inaccuracy: 25
 
 ammoTypes: {
     silicon: {
@@ -40,10 +43,10 @@ ammoTypes: {
       collidesTiles: false
       collidesGround: false
       sticky: true
-      stickyExtraLifetime: 30
+      stickyExtraLifetime: 15
       trailLength: 10
       homingPower: 0.3
-      inaccuracy: 20
+      inaccuracy: 5
       followAimSpeed: 0.3
       
       
