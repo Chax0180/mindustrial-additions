@@ -16,10 +16,6 @@ plastanium/200
 surge-alloy/100
 ]
 category: turret
-shoot: {
-firstShotDelay: 30
-inaccuracy: 25
-}
 coolant: {
   type: ConsumeCoolant
   allowGas: false
@@ -28,6 +24,7 @@ coolant: {
 }
 targetsGround: false
 targetsBlocks: false
+inaccuracy: 25
 range: 395
 
 ammoTypes: {
