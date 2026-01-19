@@ -17,7 +17,7 @@ drawer: {
 shootType: {
   type: PointLaserBulletType
   damage: 20
-  color: 0022ff
+  color: 6974c4
   damageInterval: 1
   knockback: -2
 }
