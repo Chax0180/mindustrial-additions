@@ -20,6 +20,7 @@ shootType: {
   color: 0022ff
   damageInterval: 1
   knockback: -2
+  sprite: power-laser
 }
 range: 400
 shootSound: blockExplodeElectric
