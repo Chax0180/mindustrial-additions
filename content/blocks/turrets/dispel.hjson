@@ -37,13 +37,11 @@ ammoTypes: {
       damage: 110
       despawnSound: explosionCleroi
       hitSound: explosionCleroi
-      knockback: 0.15
+      knockback: 2
       impact: true
       targetBlocks: false
       collidesTiles: false
       collidesGround: false
-      sticky: true
-      stickyExtraLifetime: 15
       trailLength: 10
       homingPower: 0.3
       inaccuracy: 5
