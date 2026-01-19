@@ -43,6 +43,7 @@ ammoTypes: {
       pierceDamageFactor: 1.25
       despawnSound: explosionArtillery
       hitSound: explosionArtillery
+      removeAfterPierce: false
       
       lifetime: 80
       width: 11
@@ -113,6 +114,7 @@ despawnEffect:{
       pierceDamageFactor: 1.3
       despawnSound: explosionArtillery
       hitSound: explosionArtillery
+      removeAfterPierce: false
       reloadMultiplier: 0.6
 
       lifetime: 90
