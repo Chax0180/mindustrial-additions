@@ -3,9 +3,9 @@ name: Dispel
 description: Fires powerful homing kinetic charges at enemy air targets.
 size: 4
 health: 2200
-maxAmmo: 10
+maxAmmo: 24
 shootSound: shootMissilePlasma
-reload: 5
+reload: 1
 rotateSpeed: 3
 requirements: [
 copper/800
@@ -43,9 +43,8 @@ ammoTypes: {
       collidesTiles: false
       collidesGround: false
       trailLength: 10
-      homingPower: 0.3
+      homingPower: 0.1
       inaccuracy: 5
-      followAimSpeed: 0.3
       
       
       lifetime: 80
