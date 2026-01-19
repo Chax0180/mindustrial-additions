@@ -22,14 +22,15 @@ coolant: {
   allowLiquid: true
   amount: 0.4
 }
-targetsGround: false
-targetsBlocks: false
-inaccuracy: 25
-range: 395
 shoot: {
 firstShotDelay: 30
 shots: 5
 }
+targetsGround: false
+targetsBlocks: false
+inaccuracy: 25
+range: 395
+
 ammoTypes: {
     silicon: {
       type: MissileBulletType
