@@ -13,6 +13,7 @@ requirements: [
 ]
 drawer: {
   type: DrawTurret
+  
 }
 shootType: {
   type: PointLaserBulletType
