@@ -48,7 +48,8 @@ ammoTypes: {
       collidesGround: false
       trailLength: 10
       trailColor: c1c3d4
-      homingPower: 0.025
+      homingPower: 0.1
+      homingDelay: 30
       inaccuracy: 5
       
       lifetime: 80
