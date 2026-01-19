@@ -3,14 +3,15 @@ name: Dispel
 description: Fires powerful homing kinetic charges at enemy air targets.
 size: 4
 health: 2200
-maxAmmo: 24
+maxAmmo: 15
+ammoPerShot: 3
 shootSound: shootMissilePlasma
 reload: 5
 rotateSpeed: 3
 requirements: [
 copper/800
 lead/1000
-silicon/400
+silicon/600
 thorium/400
 plastanium/200
 surge-alloy/100
