@@ -18,6 +18,7 @@ surge-alloy/100
 category: turret
 shoot: {
 firstShotDelay: 30
+inaccuracy: 25
 }
 coolant: {
   type: ConsumeCoolant
@@ -28,7 +29,6 @@ coolant: {
 targetsGround: false
 targetsBlocks: false
 range: 395
-inaccuracy: 25
 
 ammoTypes: {
     silicon: {
