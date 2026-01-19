@@ -5,6 +5,7 @@ size: 4
 health: 2200
 maxAmmo: 15
 ammoPerShot: 3
+consumeAmmoOnce: false
 shootSound: shootMissilePlasma
 reload: 5
 rotateSpeed: 3
