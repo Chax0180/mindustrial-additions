@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Dispel
+description: Fires powerful homing missiles at enemy air targets.
+size: 4
+health: 2200
+maxAmmo: 10
+shootSound: shootMissilePlasma
+reload: 10
+rotateSpeed: 3
+requirements: [
+copper/800
+lead/1000
+silicon/400
+thorium/400
+plastanium/200
+surge-alloy/100
+]
+category: turret
+shoot: {
+firstShotDelay: 30
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.4
+}
+range: 395
+
+ammoTypes: {
+    silicon: {
+      type: MissileBulletType
+      speed: 7
+      damage: 110
+      despawnSound: explosionCleroi
+      hitSound: exxplosionCleroi
+      
+      lifetime: 80
+      width: 11
+      height: 17
+      frontColor: ffffff
+      backColor: c1c3d4
+          sprite: missile-large
+    }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: reinforced-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      under: false
+      mirror: false
+      progress: recoil
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -3
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      mirror: true
+      under: false
+      progress: warmup
+        moveY: -1
+        moveX: 1
+    }
+  ]
+}
