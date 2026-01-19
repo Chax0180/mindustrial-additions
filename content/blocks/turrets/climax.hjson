@@ -16,7 +16,7 @@ drawer: {
 }
 shootType: {
   type: PointLaserBulletType
-  damage: 25
+  damage: 80
 }
 range: 400
 shootSound: blockExplodeElectric
@@ -25,4 +25,7 @@ rotateSpeed: 3
 shootY: 4
 consumes: {
   power: 36
+liquids:[
+cryofluid/1
+]
 }
