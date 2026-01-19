@@ -16,7 +16,9 @@ drawer: {
 }
 shootType: {
   type: PointLaserBulletType
-  damage: 80
+  damage: 10
+  color: c1c3d4
+  damageInterval: 1
 }
 range: 400
 shootSound: blockExplodeElectric
