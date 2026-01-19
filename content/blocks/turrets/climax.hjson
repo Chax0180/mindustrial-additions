@@ -17,7 +17,7 @@ drawer: {
 shootType: {
   type: PointLaserBulletType
   damage: 20
-  color: 6974c4
+  sprite: "drill-laser-boost"
   damageInterval: 1
   knockback: -2
 }
