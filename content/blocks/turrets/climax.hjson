@@ -21,6 +21,9 @@ shootType: {
   sprite: "drill-laser-boost"
   damageInterval: 1
   knockback: -5
+  targetBlocks: false
+  collidesTiles: false
+  collidesGround: false
 }
 range: 400
 shootSound: blockExplodeElectric
