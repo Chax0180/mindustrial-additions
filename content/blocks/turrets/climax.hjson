@@ -4,6 +4,8 @@ description: Fires a powerful tractor beam at enemy air targets, pulling them in
 size: 4
 category: turret
 research: parallax
+targetsGround: false
+targetsBlocks: false
 requirements: [
   titanium/750
   lead/300
