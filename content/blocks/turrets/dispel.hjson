@@ -31,7 +31,7 @@ shotDelay: 5
 targetsGround: false
 targetsBlocks: false
 inaccuracy: 25
-range: 440
+range: 530
 
 ammoTypes: {
     silicon: {
