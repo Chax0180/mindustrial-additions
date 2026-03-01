@@ -39,3 +39,32 @@ liquids:[
 cryofluid/1
 ]
 }
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -main
+      under: false
+      mirror: false
+      progress: recoil
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -1
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      mirror: true
+      under: false
+      progress: warmup
+        moveY: -2
+        moveX: 2
+    }
+  ]
+}
