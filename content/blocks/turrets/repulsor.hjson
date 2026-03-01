@@ -1,6 +1,6 @@
 type: ContinuousTurret
 name: Repulsor
-description: A modified Climax. Pushes enemy tarkets away, but deals no damage.
+description: A modified Climax. Pushes enemy targets away, but deals no damage.
 size: 4
 category: turret
 research: climax
@@ -35,4 +35,33 @@ consumes: {
 liquids:[
 cryofluid/1
 ]
+}
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -main
+      under: false
+      mirror: false
+      progress: recoil
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -1
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -blade
+      mirror: true
+      under: false
+      progress: warmup
+        moveY: -2
+        moveX: 2
+    }
+  ]
 }
