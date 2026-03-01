@@ -39,7 +39,6 @@ liquids:[
 cryofluid/1
 ]
 }
-}
 drawer: {
   type: DrawTurret
   parts: [
